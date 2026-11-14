@@ -1,3 +1,7 @@
+[![English](https://img.shields.io/badge/English-Current-brightgreen)](README.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Click%20to%20View-lightgrey)](README_de-DE.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Click%20to%20View-lightgrey)](README_fr-FR.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Click%20to%20View-lightgrey)](README_es-ES.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Click%20to%20View-lightgrey)](README_pt-BR.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-Click%20to%20View-lightgrey)](README_ja-JP.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-Click%20to%20View-lightgrey)](README_ko-KR.md)
+
+---
+
 # Awesome Reference-to-Video Prompts
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub stars](https://img.shields.io/github/stars/refvid/awesome-reference-to-video-prompts?style=social)](https://github.com/refvid/awesome-reference-to-video-prompts) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE) [![Prompts](https://img.shields.io/badge/prompts-71-blue)](#contents)
@@ -6,9 +10,7 @@
 
 Reference-to-video means you give the model a few photos of your subject and it keeps that face, coat or product the same across the whole clip. The prompts here work with Kling 4, Kling 3.0 Omni, Seedance, Wan, Vidu and other reference-to-video models; `[1]`, `[2]` stand for the first and second set of reference photos.
 
-Made by [RefVid](https://refvid.com) — every prompt is also a ready template there: add your own photos and generate. Machine-readable list: [`prompts.json`](prompts.json). Agent skill for Claude Code / Codex: [`skills/reference-to-video-prompts`](skills/reference-to-video-prompts/SKILL.md).
-
-Templates in other languages: [English](https://refvid.com/templates) · [Deutsch](https://refvid.com/de/templates) · [Français](https://refvid.com/fr/templates) · [Español](https://refvid.com/es/templates) · [Português](https://refvid.com/pt/templates) · [日本語](https://refvid.com/ja/templates) · [한국어](https://refvid.com/ko/templates)
+Made by [RefVid](https://refvid.com/) — every prompt is also a ready template there: add your own photos and generate. Machine-readable list: [`prompts.json`](prompts.json). Agent skill for Claude Code / Codex: [`skills/reference-to-video-prompts`](skills/reference-to-video-prompts/SKILL.md).
 
 ## Watch every clip
 
@@ -118,12 +120,12 @@ Product ads and showcases from photos of one product.
 ### Cinematic Drive
 
 <p>
-<a href="https://refvid.com/templates/car-cinematic-drive"><img src="media/car-cinematic-drive/poster.jpg" height="240" align="left" alt="a dark green electric car on a cliffside coast road at sunset"></a>
+<a href="https://refvid.com/car-cinematic-drive"><img src="media/car-cinematic-drive/poster.jpg" height="240" align="left" alt="a dark green electric car on a cliffside coast road at sunset"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your car<br><br>
-<b>Reference photos</b><br><img src="media/car-cinematic-drive/ref-1.jpg" height="56" alt="Reference photo for Cinematic Drive"> <img src="media/car-cinematic-drive/ref-2.jpg" height="56" alt="Reference photo for Cinematic Drive"> <img src="media/car-cinematic-drive/ref-3.jpg" height="56" alt="Reference photo for Cinematic Drive"> <img src="media/car-cinematic-drive/ref-4.jpg" height="56" alt="Reference photo for Cinematic Drive"><br><br>
-<a href="https://refvid.com/templates/car-cinematic-drive"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/car-cinematic-drive/ref-1.jpg" height="56" alt="Reference photo: Cinematic Drive"> <img src="media/car-cinematic-drive/ref-2.jpg" height="56" alt="Reference photo: Cinematic Drive"> <img src="media/car-cinematic-drive/ref-3.jpg" height="56" alt="Reference photo: Cinematic Drive"> <img src="media/car-cinematic-drive/ref-4.jpg" height="56" alt="Reference photo: Cinematic Drive"><br><br>
+<a href="https://refvid.com/car-cinematic-drive"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -137,12 +139,12 @@ Shot 2: [1] passes slowly close to the camera on the same road, the warm light r
 ### Food Commercial
 
 <p>
-<a href="https://refvid.com/templates/food-pour-steam"><img src="media/food-pour-steam/poster.jpg" height="240" align="left" alt="coffee pouring into a steaming white cup on a wooden table"></a>
+<a href="https://refvid.com/food-pour-steam"><img src="media/food-pour-steam/poster.jpg" height="240" align="left" alt="coffee pouring into a steaming white cup on a wooden table"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/food-pour-steam/ref-1.jpg" height="56" alt="Reference photo for Food Commercial"> <img src="media/food-pour-steam/ref-2.jpg" height="56" alt="Reference photo for Food Commercial"> <img src="media/food-pour-steam/ref-3.jpg" height="56" alt="Reference photo for Food Commercial"> <img src="media/food-pour-steam/ref-4.jpg" height="56" alt="Reference photo for Food Commercial"><br><br>
-<a href="https://refvid.com/templates/food-pour-steam"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/food-pour-steam/ref-1.jpg" height="56" alt="Reference photo: Food Commercial"> <img src="media/food-pour-steam/ref-2.jpg" height="56" alt="Reference photo: Food Commercial"> <img src="media/food-pour-steam/ref-3.jpg" height="56" alt="Reference photo: Food Commercial"> <img src="media/food-pour-steam/ref-4.jpg" height="56" alt="Reference photo: Food Commercial"><br><br>
+<a href="https://refvid.com/food-pour-steam"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -156,12 +158,12 @@ Shot 2: [1] stands next to the steaming cup or bowl on a wooden counter, a few o
 ### Handbag Street
 
 <p>
-<a href="https://refvid.com/templates/handbag-street-style"><img src="media/handbag-street-style/poster.jpg" height="240" align="left" alt="a tan leather handbag carried by a woman in a beige coat on a city street"></a>
+<a href="https://refvid.com/handbag-street-style"><img src="media/handbag-street-style/poster.jpg" height="240" align="left" alt="a tan leather handbag carried by a woman in a beige coat on a city street"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your bag<br><br>
-<b>Reference photos</b><br><img src="media/handbag-street-style/ref-1.jpg" height="56" alt="Reference photo for Handbag Street"> <img src="media/handbag-street-style/ref-2.jpg" height="56" alt="Reference photo for Handbag Street"><br><br>
-<a href="https://refvid.com/templates/handbag-street-style"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/handbag-street-style/ref-1.jpg" height="56" alt="Reference photo: Handbag Street"> <img src="media/handbag-street-style/ref-2.jpg" height="56" alt="Reference photo: Handbag Street"><br><br>
+<a href="https://refvid.com/handbag-street-style"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -174,12 +176,12 @@ A woman in a cream trench coat walks down a sunlit city street carrying [1] on h
 ### Iced Drink
 
 <p>
-<a href="https://refvid.com/templates/iced-drink-frost"><img src="media/iced-drink-frost/poster.jpg" height="240" align="left" alt="a yellow can of sparkling citrus drink in crushed ice"></a>
+<a href="https://refvid.com/iced-drink-frost"><img src="media/iced-drink-frost/poster.jpg" height="240" align="left" alt="a yellow can of sparkling citrus drink in crushed ice"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your drink<br><br>
-<b>Reference photos</b><br><img src="media/iced-drink-frost/ref-1.jpg" height="56" alt="Reference photo for Iced Drink"> <img src="media/iced-drink-frost/ref-2.jpg" height="56" alt="Reference photo for Iced Drink"><br><br>
-<a href="https://refvid.com/templates/iced-drink-frost"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/iced-drink-frost/ref-1.jpg" height="56" alt="Reference photo: Iced Drink"> <img src="media/iced-drink-frost/ref-2.jpg" height="56" alt="Reference photo: Iced Drink"><br><br>
+<a href="https://refvid.com/iced-drink-frost"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -192,12 +194,12 @@ A woman in a cream trench coat walks down a sunlit city street carrying [1] on h
 ### Jewelry on Hand
 
 <p>
-<a href="https://refvid.com/templates/jewelry-on-hand"><img src="media/jewelry-on-hand/poster.jpg" height="240" align="left" alt="a gold diamond ring on a hand resting on cream silk"></a>
+<a href="https://refvid.com/jewelry-on-hand"><img src="media/jewelry-on-hand/poster.jpg" height="240" align="left" alt="a gold diamond ring on a hand resting on cream silk"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your jewelry<br><br>
-<b>Reference photos</b><br><img src="media/jewelry-on-hand/ref-1.jpg" height="56" alt="Reference photo for Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-2.jpg" height="56" alt="Reference photo for Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-3.jpg" height="56" alt="Reference photo for Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-4.jpg" height="56" alt="Reference photo for Jewelry on Hand"><br><br>
-<a href="https://refvid.com/templates/jewelry-on-hand"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/jewelry-on-hand/ref-1.jpg" height="56" alt="Reference photo: Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-2.jpg" height="56" alt="Reference photo: Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-3.jpg" height="56" alt="Reference photo: Jewelry on Hand"> <img src="media/jewelry-on-hand/ref-4.jpg" height="56" alt="Reference photo: Jewelry on Hand"><br><br>
+<a href="https://refvid.com/jewelry-on-hand"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -210,12 +212,12 @@ Close-up: a woman’s hand with a soft natural manicure, wearing [1], rests on c
 ### Jewelry Sparkle
 
 <p>
-<a href="https://refvid.com/templates/jewelry-sparkle"><img src="media/jewelry-sparkle/poster.jpg" height="240" align="left" alt="a gold diamond ring sparkling on black glitter"></a>
+<a href="https://refvid.com/jewelry-sparkle"><img src="media/jewelry-sparkle/poster.jpg" height="240" align="left" alt="a gold diamond ring sparkling on black glitter"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your piece<br><br>
-<b>Reference photos</b><br><img src="media/jewelry-sparkle/ref-1.jpg" height="56" alt="Reference photo for Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-2.jpg" height="56" alt="Reference photo for Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-3.jpg" height="56" alt="Reference photo for Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-4.jpg" height="56" alt="Reference photo for Jewelry Sparkle"><br><br>
-<a href="https://refvid.com/templates/jewelry-sparkle"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/jewelry-sparkle/ref-1.jpg" height="56" alt="Reference photo: Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-2.jpg" height="56" alt="Reference photo: Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-3.jpg" height="56" alt="Reference photo: Jewelry Sparkle"> <img src="media/jewelry-sparkle/ref-4.jpg" height="56" alt="Reference photo: Jewelry Sparkle"><br><br>
+<a href="https://refvid.com/jewelry-sparkle"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -228,12 +230,12 @@ Macro shot: [1] rests on rich black velvet and turns slowly while a soft beam of
 ### Lipstick Swatch
 
 <p>
-<a href="https://refvid.com/templates/lipstick-swatch"><img src="media/lipstick-swatch/poster.jpg" height="240" align="left" alt="a dark red lipstick leaving a swatch on cream paper"></a>
+<a href="https://refvid.com/lipstick-swatch"><img src="media/lipstick-swatch/poster.jpg" height="240" align="left" alt="a dark red lipstick leaving a swatch on cream paper"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your lipstick<br><br>
-<b>Reference photos</b><br><img src="media/lipstick-swatch/ref-1.jpg" height="56" alt="Reference photo for Lipstick Swatch"> <img src="media/lipstick-swatch/ref-2.jpg" height="56" alt="Reference photo for Lipstick Swatch"><br><br>
-<a href="https://refvid.com/templates/lipstick-swatch"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/lipstick-swatch/ref-1.jpg" height="56" alt="Reference photo: Lipstick Swatch"> <img src="media/lipstick-swatch/ref-2.jpg" height="56" alt="Reference photo: Lipstick Swatch"><br><br>
+<a href="https://refvid.com/lipstick-swatch"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -246,12 +248,12 @@ Macro: the bullet of [1] glides across a smooth cream surface and leaves a singl
 ### Perfume Reveal
 
 <p>
-<a href="https://refvid.com/templates/perfume-reveal"><img src="media/perfume-reveal/poster.jpg" height="240" align="left" alt="a square perfume bottle on a reflective surface under a soft spotlight"></a>
+<a href="https://refvid.com/perfume-reveal"><img src="media/perfume-reveal/poster.jpg" height="240" align="left" alt="a square perfume bottle on a reflective surface under a soft spotlight"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your perfume<br><br>
-<b>Reference photos</b><br><img src="media/perfume-reveal/ref-1.jpg" height="56" alt="Reference photo for Perfume Reveal"> <img src="media/perfume-reveal/ref-2.jpg" height="56" alt="Reference photo for Perfume Reveal"> <img src="media/perfume-reveal/ref-3.jpg" height="56" alt="Reference photo for Perfume Reveal"><br><br>
-<a href="https://refvid.com/templates/perfume-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/perfume-reveal/ref-1.jpg" height="56" alt="Reference photo: Perfume Reveal"> <img src="media/perfume-reveal/ref-2.jpg" height="56" alt="Reference photo: Perfume Reveal"> <img src="media/perfume-reveal/ref-3.jpg" height="56" alt="Reference photo: Perfume Reveal"><br><br>
+<a href="https://refvid.com/perfume-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -264,12 +266,12 @@ Macro: the bullet of [1] glides across a smooth cream surface and leaves a singl
 ### Product 360
 
 <p>
-<a href="https://refvid.com/templates/product-360-turntable"><img src="media/product-360-turntable/poster.jpg" height="240" align="left" alt="a grey and orange running shoe on a plain light grey backdrop"></a>
+<a href="https://refvid.com/product-360-turntable"><img src="media/product-360-turntable/poster.jpg" height="240" align="left" alt="a grey and orange running shoe on a plain light grey backdrop"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-360-turntable/ref-1.jpg" height="56" alt="Reference photo for Product 360"> <img src="media/product-360-turntable/ref-2.jpg" height="56" alt="Reference photo for Product 360"> <img src="media/product-360-turntable/ref-3.jpg" height="56" alt="Reference photo for Product 360"><br><br>
-<a href="https://refvid.com/templates/product-360-turntable"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-360-turntable/ref-1.jpg" height="56" alt="Reference photo: Product 360"> <img src="media/product-360-turntable/ref-2.jpg" height="56" alt="Reference photo: Product 360"> <img src="media/product-360-turntable/ref-3.jpg" height="56" alt="Reference photo: Product 360"><br><br>
+<a href="https://refvid.com/product-360-turntable"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -282,12 +284,12 @@ Macro: the bullet of [1] glides across a smooth cream surface and leaves a singl
 ### 3D Billboard
 
 <p>
-<a href="https://refvid.com/templates/product-3d-billboard"><img src="media/product-3d-billboard/poster.jpg" height="240" align="left" alt="a black coffee bag on a giant 3D billboard on a city building at dusk"></a>
+<a href="https://refvid.com/product-3d-billboard"><img src="media/product-3d-billboard/poster.jpg" height="240" align="left" alt="a black coffee bag on a giant 3D billboard on a city building at dusk"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-3d-billboard/ref-1.jpg" height="56" alt="Reference photo for 3D Billboard"> <img src="media/product-3d-billboard/ref-2.jpg" height="56" alt="Reference photo for 3D Billboard"> <img src="media/product-3d-billboard/ref-3.jpg" height="56" alt="Reference photo for 3D Billboard"> <img src="media/product-3d-billboard/ref-4.jpg" height="56" alt="Reference photo for 3D Billboard"><br><br>
-<a href="https://refvid.com/templates/product-3d-billboard"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-3d-billboard/ref-1.jpg" height="56" alt="Reference photo: 3D Billboard"> <img src="media/product-3d-billboard/ref-2.jpg" height="56" alt="Reference photo: 3D Billboard"> <img src="media/product-3d-billboard/ref-3.jpg" height="56" alt="Reference photo: 3D Billboard"> <img src="media/product-3d-billboard/ref-4.jpg" height="56" alt="Reference photo: 3D Billboard"><br><br>
+<a href="https://refvid.com/product-3d-billboard"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -300,12 +302,12 @@ A curved 3D LED billboard wraps the corner of a tall city building at dusk, seen
 ### Black Friday
 
 <p>
-<a href="https://refvid.com/templates/product-black-friday"><img src="media/product-black-friday/poster.jpg" height="240" align="left" alt="a square perfume bottle on stacked black gift boxes in neon light"></a>
+<a href="https://refvid.com/product-black-friday"><img src="media/product-black-friday/poster.jpg" height="240" align="left" alt="a square perfume bottle on stacked black gift boxes in neon light"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-black-friday/ref-1.jpg" height="56" alt="Reference photo for Black Friday"> <img src="media/product-black-friday/ref-2.jpg" height="56" alt="Reference photo for Black Friday"> <img src="media/product-black-friday/ref-3.jpg" height="56" alt="Reference photo for Black Friday"><br><br>
-<a href="https://refvid.com/templates/product-black-friday"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-black-friday/ref-1.jpg" height="56" alt="Reference photo: Black Friday"> <img src="media/product-black-friday/ref-2.jpg" height="56" alt="Reference photo: Black Friday"> <img src="media/product-black-friday/ref-3.jpg" height="56" alt="Reference photo: Black Friday"><br><br>
+<a href="https://refvid.com/product-black-friday"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -319,12 +321,12 @@ Shot 2: Slow push-in on [1], neon reflections sliding across it, the label sharp
 ### Bullet Time
 
 <p>
-<a href="https://refvid.com/templates/product-bullet-time"><img src="media/product-bullet-time/poster.jpg" height="240" align="left" alt="a serum bottle frozen mid-air in a burst of water droplets"></a>
+<a href="https://refvid.com/product-bullet-time"><img src="media/product-bullet-time/poster.jpg" height="240" align="left" alt="a serum bottle frozen mid-air in a burst of water droplets"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-bullet-time/ref-1.jpg" height="56" alt="Reference photo for Bullet Time"> <img src="media/product-bullet-time/ref-2.jpg" height="56" alt="Reference photo for Bullet Time"> <img src="media/product-bullet-time/ref-3.jpg" height="56" alt="Reference photo for Bullet Time"><br><br>
-<a href="https://refvid.com/templates/product-bullet-time"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-bullet-time/ref-1.jpg" height="56" alt="Reference photo: Bullet Time"> <img src="media/product-bullet-time/ref-2.jpg" height="56" alt="Reference photo: Bullet Time"> <img src="media/product-bullet-time/ref-3.jpg" height="56" alt="Reference photo: Bullet Time"><br><br>
+<a href="https://refvid.com/product-bullet-time"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -337,12 +339,12 @@ Bullet time: [1] hangs frozen in mid-air inside a burst of crystal-clear water d
 ### Christmas Gift
 
 <p>
-<a href="https://refvid.com/templates/product-christmas-gift"><img src="media/product-christmas-gift/poster.jpg" height="240" align="left" alt="hands opening a white gift box with a red ribbon by Christmas lights"></a>
+<a href="https://refvid.com/product-christmas-gift"><img src="media/product-christmas-gift/poster.jpg" height="240" align="left" alt="hands opening a white gift box with a red ribbon by Christmas lights"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-christmas-gift/ref-1.jpg" height="56" alt="Reference photo for Christmas Gift"> <img src="media/product-christmas-gift/ref-2.jpg" height="56" alt="Reference photo for Christmas Gift"> <img src="media/product-christmas-gift/ref-3.jpg" height="56" alt="Reference photo for Christmas Gift"><br><br>
-<a href="https://refvid.com/templates/product-christmas-gift"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-christmas-gift/ref-1.jpg" height="56" alt="Reference photo: Christmas Gift"> <img src="media/product-christmas-gift/ref-2.jpg" height="56" alt="Reference photo: Christmas Gift"> <img src="media/product-christmas-gift/ref-3.jpg" height="56" alt="Reference photo: Christmas Gift"><br><br>
+<a href="https://refvid.com/product-christmas-gift"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -356,12 +358,12 @@ Shot 2: Looking into the open box: [1] rests on crisp white tissue paper, the la
 ### Flat Lay
 
 <p>
-<a href="https://refvid.com/templates/product-flat-lay"><img src="media/product-flat-lay/poster.jpg" height="240" align="left" alt="a black coffee bag and a cup of coffee seen from above on beige"></a>
+<a href="https://refvid.com/product-flat-lay"><img src="media/product-flat-lay/poster.jpg" height="240" align="left" alt="a black coffee bag and a cup of coffee seen from above on beige"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-flat-lay/ref-1.jpg" height="56" alt="Reference photo for Flat Lay"> <img src="media/product-flat-lay/ref-2.jpg" height="56" alt="Reference photo for Flat Lay"> <img src="media/product-flat-lay/ref-3.jpg" height="56" alt="Reference photo for Flat Lay"> <img src="media/product-flat-lay/ref-4.jpg" height="56" alt="Reference photo for Flat Lay"><br><br>
-<a href="https://refvid.com/templates/product-flat-lay"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-flat-lay/ref-1.jpg" height="56" alt="Reference photo: Flat Lay"> <img src="media/product-flat-lay/ref-2.jpg" height="56" alt="Reference photo: Flat Lay"> <img src="media/product-flat-lay/ref-3.jpg" height="56" alt="Reference photo: Flat Lay"> <img src="media/product-flat-lay/ref-4.jpg" height="56" alt="Reference photo: Flat Lay"><br><br>
+<a href="https://refvid.com/product-flat-lay"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -374,12 +376,12 @@ Top-down flat lay on a warm beige linen surface: [1] lies in the centre as three
 ### Floating Product
 
 <p>
-<a href="https://refvid.com/templates/product-floating"><img src="media/product-floating/poster.jpg" height="240" align="left" alt="a grey and orange running shoe floating above its shadow"></a>
+<a href="https://refvid.com/product-floating"><img src="media/product-floating/poster.jpg" height="240" align="left" alt="a grey and orange running shoe floating above its shadow"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-floating/ref-1.jpg" height="56" alt="Reference photo for Floating Product"> <img src="media/product-floating/ref-2.jpg" height="56" alt="Reference photo for Floating Product"> <img src="media/product-floating/ref-3.jpg" height="56" alt="Reference photo for Floating Product"><br><br>
-<a href="https://refvid.com/templates/product-floating"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-floating/ref-1.jpg" height="56" alt="Reference photo: Floating Product"> <img src="media/product-floating/ref-2.jpg" height="56" alt="Reference photo: Floating Product"> <img src="media/product-floating/ref-3.jpg" height="56" alt="Reference photo: Floating Product"><br><br>
+<a href="https://refvid.com/product-floating"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -392,12 +394,12 @@ Top-down flat lay on a warm beige linen surface: [1] lies in the centre as three
 ### Product Reveal
 
 <p>
-<a href="https://refvid.com/templates/product-hero-reveal"><img src="media/product-hero-reveal/poster.jpg" height="240" align="left" alt="a perfume bottle on a black plinth lit by a beam of light"></a>
+<a href="https://refvid.com/product-hero-reveal"><img src="media/product-hero-reveal/poster.jpg" height="240" align="left" alt="a perfume bottle on a black plinth lit by a beam of light"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-hero-reveal/ref-1.jpg" height="56" alt="Reference photo for Product Reveal"> <img src="media/product-hero-reveal/ref-2.jpg" height="56" alt="Reference photo for Product Reveal"> <img src="media/product-hero-reveal/ref-3.jpg" height="56" alt="Reference photo for Product Reveal"><br><br>
-<a href="https://refvid.com/templates/product-hero-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-hero-reveal/ref-1.jpg" height="56" alt="Reference photo: Product Reveal"> <img src="media/product-hero-reveal/ref-2.jpg" height="56" alt="Reference photo: Product Reveal"> <img src="media/product-hero-reveal/ref-3.jpg" height="56" alt="Reference photo: Product Reveal"><br><br>
+<a href="https://refvid.com/product-hero-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -411,12 +413,12 @@ Shot 2: Slow push-in on [1] as the light settles, the label sharp and centred, d
 ### UGC Ad
 
 <p>
-<a href="https://refvid.com/templates/product-in-hand-ugc"><img src="media/product-in-hand-ugc/poster.jpg" height="240" align="left" alt="a smiling woman holding a serum bottle up to the camera"></a>
+<a href="https://refvid.com/product-in-hand-ugc"><img src="media/product-in-hand-ugc/poster.jpg" height="240" align="left" alt="a smiling woman holding a serum bottle up to the camera"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> the presenter · <code>[2]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-in-hand-ugc/ref-1.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-2.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-3.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-4.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-5.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-6.jpg" height="56" alt="Reference photo for UGC Ad"> <img src="media/product-in-hand-ugc/ref-7.jpg" height="56" alt="Reference photo for UGC Ad"><br><br>
-<a href="https://refvid.com/templates/product-in-hand-ugc"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-in-hand-ugc/ref-1.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-2.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-3.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-4.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-5.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-6.jpg" height="56" alt="Reference photo: UGC Ad"> <img src="media/product-in-hand-ugc/ref-7.jpg" height="56" alt="Reference photo: UGC Ad"><br><br>
+<a href="https://refvid.com/product-in-hand-ugc"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -430,12 +432,12 @@ Shot 2: Close-up of [2] in [1]’s hand, turned slowly so the label faces the ca
 ### Ingredient Splash
 
 <p>
-<a href="https://refvid.com/templates/product-ingredient-splash"><img src="media/product-ingredient-splash/poster.jpg" height="240" align="left" alt="a yellow drink can among lemon slices, mint leaves and ice cubes"></a>
+<a href="https://refvid.com/product-ingredient-splash"><img src="media/product-ingredient-splash/poster.jpg" height="240" align="left" alt="a yellow drink can among lemon slices, mint leaves and ice cubes"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-ingredient-splash/ref-1.jpg" height="56" alt="Reference photo for Ingredient Splash"> <img src="media/product-ingredient-splash/ref-2.jpg" height="56" alt="Reference photo for Ingredient Splash"><br><br>
-<a href="https://refvid.com/templates/product-ingredient-splash"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-ingredient-splash/ref-1.jpg" height="56" alt="Reference photo: Ingredient Splash"> <img src="media/product-ingredient-splash/ref-2.jpg" height="56" alt="Reference photo: Ingredient Splash"><br><br>
+<a href="https://refvid.com/product-ingredient-splash"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -448,12 +450,12 @@ Slow motion: [1] stands in the centre against a bright background in its pack’
 ### Lifestyle at Home
 
 <p>
-<a href="https://refvid.com/templates/product-lifestyle-home"><img src="media/product-lifestyle-home/poster.jpg" height="240" align="left" alt="a perfume bottle on a bedroom dresser by a window"></a>
+<a href="https://refvid.com/product-lifestyle-home"><img src="media/product-lifestyle-home/poster.jpg" height="240" align="left" alt="a perfume bottle on a bedroom dresser by a window"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-lifestyle-home/ref-1.jpg" height="56" alt="Reference photo for Lifestyle at Home"> <img src="media/product-lifestyle-home/ref-2.jpg" height="56" alt="Reference photo for Lifestyle at Home"> <img src="media/product-lifestyle-home/ref-3.jpg" height="56" alt="Reference photo for Lifestyle at Home"><br><br>
-<a href="https://refvid.com/templates/product-lifestyle-home"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-lifestyle-home/ref-1.jpg" height="56" alt="Reference photo: Lifestyle at Home"> <img src="media/product-lifestyle-home/ref-2.jpg" height="56" alt="Reference photo: Lifestyle at Home"> <img src="media/product-lifestyle-home/ref-3.jpg" height="56" alt="Reference photo: Lifestyle at Home"><br><br>
+<a href="https://refvid.com/product-lifestyle-home"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -467,12 +469,12 @@ Shot 2: The camera settles on [1], the label sharp, soft morning light and gentl
 ### Petal Fall
 
 <p>
-<a href="https://refvid.com/templates/product-petal-fall"><img src="media/product-petal-fall/poster.jpg" height="240" align="left" alt="a serum bottle on a stone plinth with pink petals falling"></a>
+<a href="https://refvid.com/product-petal-fall"><img src="media/product-petal-fall/poster.jpg" height="240" align="left" alt="a serum bottle on a stone plinth with pink petals falling"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-petal-fall/ref-1.jpg" height="56" alt="Reference photo for Petal Fall"> <img src="media/product-petal-fall/ref-2.jpg" height="56" alt="Reference photo for Petal Fall"> <img src="media/product-petal-fall/ref-3.jpg" height="56" alt="Reference photo for Petal Fall"><br><br>
-<a href="https://refvid.com/templates/product-petal-fall"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-petal-fall/ref-1.jpg" height="56" alt="Reference photo: Petal Fall"> <img src="media/product-petal-fall/ref-2.jpg" height="56" alt="Reference photo: Petal Fall"> <img src="media/product-petal-fall/ref-3.jpg" height="56" alt="Reference photo: Petal Fall"><br><br>
+<a href="https://refvid.com/product-petal-fall"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -485,12 +487,12 @@ Slow motion: soft pink rose petals drift down through warm light around [1], whi
 ### Unboxing
 
 <p>
-<a href="https://refvid.com/templates/product-unboxing"><img src="media/product-unboxing/poster.jpg" height="240" align="left" alt="hands opening a cardboard box with white tissue paper inside"></a>
+<a href="https://refvid.com/product-unboxing"><img src="media/product-unboxing/poster.jpg" height="240" align="left" alt="hands opening a cardboard box with white tissue paper inside"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-unboxing/ref-1.jpg" height="56" alt="Reference photo for Unboxing"> <img src="media/product-unboxing/ref-2.jpg" height="56" alt="Reference photo for Unboxing"> <img src="media/product-unboxing/ref-3.jpg" height="56" alt="Reference photo for Unboxing"><br><br>
-<a href="https://refvid.com/templates/product-unboxing"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-unboxing/ref-1.jpg" height="56" alt="Reference photo: Unboxing"> <img src="media/product-unboxing/ref-2.jpg" height="56" alt="Reference photo: Unboxing"> <img src="media/product-unboxing/ref-3.jpg" height="56" alt="Reference photo: Unboxing"><br><br>
+<a href="https://refvid.com/product-unboxing"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -505,12 +507,12 @@ Shot 3: [1] stands on the table next to the open box, the camera gently pushing 
 ### Water Splash
 
 <p>
-<a href="https://refvid.com/templates/product-water-splash"><img src="media/product-water-splash/poster.jpg" height="240" align="left" alt="a serum bottle plunging into water with a splash"></a>
+<a href="https://refvid.com/product-water-splash"><img src="media/product-water-splash/poster.jpg" height="240" align="left" alt="a serum bottle plunging into water with a splash"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/product-water-splash/ref-1.jpg" height="56" alt="Reference photo for Water Splash"> <img src="media/product-water-splash/ref-2.jpg" height="56" alt="Reference photo for Water Splash"> <img src="media/product-water-splash/ref-3.jpg" height="56" alt="Reference photo for Water Splash"><br><br>
-<a href="https://refvid.com/templates/product-water-splash"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/product-water-splash/ref-1.jpg" height="56" alt="Reference photo: Water Splash"> <img src="media/product-water-splash/ref-2.jpg" height="56" alt="Reference photo: Water Splash"> <img src="media/product-water-splash/ref-3.jpg" height="56" alt="Reference photo: Water Splash"><br><br>
+<a href="https://refvid.com/product-water-splash"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -523,12 +525,12 @@ Slow motion: [1] drops into a tank of crystal-clear water against a soft blue gr
 ### Skincare Texture
 
 <p>
-<a href="https://refvid.com/templates/skincare-texture-macro"><img src="media/skincare-texture-macro/poster.jpg" height="240" align="left" alt="a drop of golden serum falling onto a white surface, close up"></a>
+<a href="https://refvid.com/skincare-texture-macro"><img src="media/skincare-texture-macro/poster.jpg" height="240" align="left" alt="a drop of golden serum falling onto a white surface, close up"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your product<br><br>
-<b>Reference photos</b><br><img src="media/skincare-texture-macro/ref-1.jpg" height="56" alt="Reference photo for Skincare Texture"> <img src="media/skincare-texture-macro/ref-2.jpg" height="56" alt="Reference photo for Skincare Texture"> <img src="media/skincare-texture-macro/ref-3.jpg" height="56" alt="Reference photo for Skincare Texture"><br><br>
-<a href="https://refvid.com/templates/skincare-texture-macro"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/skincare-texture-macro/ref-1.jpg" height="56" alt="Reference photo: Skincare Texture"> <img src="media/skincare-texture-macro/ref-2.jpg" height="56" alt="Reference photo: Skincare Texture"> <img src="media/skincare-texture-macro/ref-3.jpg" height="56" alt="Reference photo: Skincare Texture"><br><br>
+<a href="https://refvid.com/skincare-texture-macro"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -542,12 +544,12 @@ Shot 2: [1] stands on the pale stone next to a few pieces of its key ingredient,
 ### Sneaker Ad
 
 <p>
-<a href="https://refvid.com/templates/sneaker-street-walk"><img src="media/sneaker-street-walk/poster.jpg" height="240" align="left" alt="running shoes mid-stride on a city pavement, close up"></a>
+<a href="https://refvid.com/sneaker-street-walk"><img src="media/sneaker-street-walk/poster.jpg" height="240" align="left" alt="running shoes mid-stride on a city pavement, close up"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your shoes<br><br>
-<b>Reference photos</b><br><img src="media/sneaker-street-walk/ref-1.jpg" height="56" alt="Reference photo for Sneaker Ad"> <img src="media/sneaker-street-walk/ref-2.jpg" height="56" alt="Reference photo for Sneaker Ad"> <img src="media/sneaker-street-walk/ref-3.jpg" height="56" alt="Reference photo for Sneaker Ad"><br><br>
-<a href="https://refvid.com/templates/sneaker-street-walk"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/sneaker-street-walk/ref-1.jpg" height="56" alt="Reference photo: Sneaker Ad"> <img src="media/sneaker-street-walk/ref-2.jpg" height="56" alt="Reference photo: Sneaker Ad"> <img src="media/sneaker-street-walk/ref-3.jpg" height="56" alt="Reference photo: Sneaker Ad"><br><br>
+<a href="https://refvid.com/sneaker-street-walk"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -561,12 +563,12 @@ Shot 2: Close-up of [1] landing mid-step on the pavement, a little dust lifting,
 ### Tech Reveal
 
 <p>
-<a href="https://refvid.com/templates/tech-gadget-reveal"><img src="media/tech-gadget-reveal/poster.jpg" height="240" align="left" alt="white wireless earbuds in an open case glowing on a dark background"></a>
+<a href="https://refvid.com/tech-gadget-reveal"><img src="media/tech-gadget-reveal/poster.jpg" height="240" align="left" alt="white wireless earbuds in an open case glowing on a dark background"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your device<br><br>
-<b>Reference photos</b><br><img src="media/tech-gadget-reveal/ref-1.jpg" height="56" alt="Reference photo for Tech Reveal"> <img src="media/tech-gadget-reveal/ref-2.jpg" height="56" alt="Reference photo for Tech Reveal"><br><br>
-<a href="https://refvid.com/templates/tech-gadget-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/tech-gadget-reveal/ref-1.jpg" height="56" alt="Reference photo: Tech Reveal"> <img src="media/tech-gadget-reveal/ref-2.jpg" height="56" alt="Reference photo: Tech Reveal"><br><br>
+<a href="https://refvid.com/tech-gadget-reveal"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -579,12 +581,12 @@ Shot 2: Close-up of [1] landing mid-step on the pavement, a little dust lifting,
 ### Watch Macro
 
 <p>
-<a href="https://refvid.com/templates/watch-macro"><img src="media/watch-macro/poster.jpg" height="240" align="left" alt="a watch with a navy sunburst dial and silver hands, close up"></a>
+<a href="https://refvid.com/watch-macro"><img src="media/watch-macro/poster.jpg" height="240" align="left" alt="a watch with a navy sunburst dial and silver hands, close up"></a>
 <b>Model</b>&nbsp; Kling 4<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your watch<br><br>
-<b>Reference photos</b><br><img src="media/watch-macro/ref-1.jpg" height="56" alt="Reference photo for Watch Macro"> <img src="media/watch-macro/ref-2.jpg" height="56" alt="Reference photo for Watch Macro"><br><br>
-<a href="https://refvid.com/templates/watch-macro"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/watch-macro/ref-1.jpg" height="56" alt="Reference photo: Watch Macro"> <img src="media/watch-macro/ref-2.jpg" height="56" alt="Reference photo: Watch Macro"><br><br>
+<a href="https://refvid.com/watch-macro"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -603,12 +605,12 @@ You, a friend or a couple in every shot, from a few photos of each face.
 ### Road Trip
 
 <p>
-<a href="https://refvid.com/templates/best-friends-road-trip"><img src="media/best-friends-road-trip/poster.jpg" height="240" align="left" alt="a cream vintage convertible on a coast road by the sea"></a>
+<a href="https://refvid.com/best-friends-road-trip"><img src="media/best-friends-road-trip/poster.jpg" height="240" align="left" alt="a cream vintage convertible on a coast road by the sea"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your friend<br><br>
-<b>Reference photos</b><br><img src="media/best-friends-road-trip/ref-1.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-2.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-3.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-4.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-5.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-6.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-7.jpg" height="56" alt="Reference photo for Road Trip"> <img src="media/best-friends-road-trip/ref-8.jpg" height="56" alt="Reference photo for Road Trip"><br><br>
-<a href="https://refvid.com/templates/best-friends-road-trip"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/best-friends-road-trip/ref-1.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-2.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-3.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-4.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-5.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-6.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-7.jpg" height="56" alt="Reference photo: Road Trip"> <img src="media/best-friends-road-trip/ref-8.jpg" height="56" alt="Reference photo: Road Trip"><br><br>
+<a href="https://refvid.com/best-friends-road-trip"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -623,12 +625,12 @@ Shot 3: The car parked at a cliff-top viewpoint at sunset, [1] and [2] sitting o
 ### Birthday Greeting
 
 <p>
-<a href="https://refvid.com/templates/birthday-greeting"><img src="media/birthday-greeting/poster.jpg" height="240" align="left" alt="a man holding a birthday cake with lit candles under string lights"></a>
+<a href="https://refvid.com/birthday-greeting"><img src="media/birthday-greeting/poster.jpg" height="240" align="left" alt="a man holding a birthday cake with lit candles under string lights"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/birthday-greeting/ref-1.jpg" height="56" alt="Reference photo for Birthday Greeting"> <img src="media/birthday-greeting/ref-2.jpg" height="56" alt="Reference photo for Birthday Greeting"> <img src="media/birthday-greeting/ref-3.jpg" height="56" alt="Reference photo for Birthday Greeting"> <img src="media/birthday-greeting/ref-4.jpg" height="56" alt="Reference photo for Birthday Greeting"><br><br>
-<a href="https://refvid.com/templates/birthday-greeting"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/birthday-greeting/ref-1.jpg" height="56" alt="Reference photo: Birthday Greeting"> <img src="media/birthday-greeting/ref-2.jpg" height="56" alt="Reference photo: Birthday Greeting"> <img src="media/birthday-greeting/ref-3.jpg" height="56" alt="Reference photo: Birthday Greeting"> <img src="media/birthday-greeting/ref-4.jpg" height="56" alt="Reference photo: Birthday Greeting"><br><br>
+<a href="https://refvid.com/birthday-greeting"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -641,12 +643,12 @@ Medium close-up of [1] in a cosy living room holding a small cake with lit candl
 ### Cooking Show
 
 <p>
-<a href="https://refvid.com/templates/chef-cooking-show"><img src="media/chef-cooking-show/poster.jpg" height="240" align="left" alt="a smiling chef in an apron in a kitchen hung with copper pans"></a>
+<a href="https://refvid.com/chef-cooking-show"><img src="media/chef-cooking-show/poster.jpg" height="240" align="left" alt="a smiling chef in an apron in a kitchen hung with copper pans"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/chef-cooking-show/ref-1.jpg" height="56" alt="Reference photo for Cooking Show"> <img src="media/chef-cooking-show/ref-2.jpg" height="56" alt="Reference photo for Cooking Show"> <img src="media/chef-cooking-show/ref-3.jpg" height="56" alt="Reference photo for Cooking Show"> <img src="media/chef-cooking-show/ref-4.jpg" height="56" alt="Reference photo for Cooking Show"><br><br>
-<a href="https://refvid.com/templates/chef-cooking-show"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/chef-cooking-show/ref-1.jpg" height="56" alt="Reference photo: Cooking Show"> <img src="media/chef-cooking-show/ref-2.jpg" height="56" alt="Reference photo: Cooking Show"> <img src="media/chef-cooking-show/ref-3.jpg" height="56" alt="Reference photo: Cooking Show"> <img src="media/chef-cooking-show/ref-4.jpg" height="56" alt="Reference photo: Cooking Show"><br><br>
+<a href="https://refvid.com/chef-cooking-show"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -661,12 +663,12 @@ Shot 3: [1] sets down a plate of spaghetti with fresh basil in front of the came
 ### Christmas Market
 
 <p>
-<a href="https://refvid.com/templates/christmas-market-couple"><img src="media/christmas-market-couple/poster.jpg" height="240" align="left" alt="a couple with warm drinks at a Christmas market under string lights"></a>
+<a href="https://refvid.com/christmas-market-couple"><img src="media/christmas-market-couple/poster.jpg" height="240" align="left" alt="a couple with warm drinks at a Christmas market under string lights"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your partner<br><br>
-<b>Reference photos</b><br><img src="media/christmas-market-couple/ref-1.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-2.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-3.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-4.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-5.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-6.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-7.jpg" height="56" alt="Reference photo for Christmas Market"> <img src="media/christmas-market-couple/ref-8.jpg" height="56" alt="Reference photo for Christmas Market"><br><br>
-<a href="https://refvid.com/templates/christmas-market-couple"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/christmas-market-couple/ref-1.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-2.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-3.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-4.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-5.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-6.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-7.jpg" height="56" alt="Reference photo: Christmas Market"> <img src="media/christmas-market-couple/ref-8.jpg" height="56" alt="Reference photo: Christmas Market"><br><br>
+<a href="https://refvid.com/christmas-market-couple"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -680,12 +682,12 @@ Shot 2: Close two-shot: [2] brushes a snowflake from [1]’s hair and they share
 ### Christmas Greeting
 
 <p>
-<a href="https://refvid.com/templates/christmas-sweater-greeting"><img src="media/christmas-sweater-greeting/poster.jpg" height="240" align="left" alt="a woman in a red sweater with a mug by a Christmas tree and a fireplace"></a>
+<a href="https://refvid.com/christmas-sweater-greeting"><img src="media/christmas-sweater-greeting/poster.jpg" height="240" align="left" alt="a woman in a red sweater with a mug by a Christmas tree and a fireplace"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/christmas-sweater-greeting/ref-1.jpg" height="56" alt="Reference photo for Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-2.jpg" height="56" alt="Reference photo for Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-3.jpg" height="56" alt="Reference photo for Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-4.jpg" height="56" alt="Reference photo for Christmas Greeting"><br><br>
-<a href="https://refvid.com/templates/christmas-sweater-greeting"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/christmas-sweater-greeting/ref-1.jpg" height="56" alt="Reference photo: Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-2.jpg" height="56" alt="Reference photo: Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-3.jpg" height="56" alt="Reference photo: Christmas Greeting"> <img src="media/christmas-sweater-greeting/ref-4.jpg" height="56" alt="Reference photo: Christmas Greeting"><br><br>
+<a href="https://refvid.com/christmas-sweater-greeting"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -699,12 +701,12 @@ Shot 2: [1] looks up at the camera with a warm smile and says: "Merry Christmas,
 ### Beach Sunset
 
 <p>
-<a href="https://refvid.com/templates/couple-beach-sunset"><img src="media/couple-beach-sunset/poster.jpg" height="240" align="left" alt="a couple walking in the shallows on a beach at sunset"></a>
+<a href="https://refvid.com/couple-beach-sunset"><img src="media/couple-beach-sunset/poster.jpg" height="240" align="left" alt="a couple walking in the shallows on a beach at sunset"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your partner<br><br>
-<b>Reference photos</b><br><img src="media/couple-beach-sunset/ref-1.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-2.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-3.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-4.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-5.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-6.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-7.jpg" height="56" alt="Reference photo for Beach Sunset"> <img src="media/couple-beach-sunset/ref-8.jpg" height="56" alt="Reference photo for Beach Sunset"><br><br>
-<a href="https://refvid.com/templates/couple-beach-sunset"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/couple-beach-sunset/ref-1.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-2.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-3.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-4.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-5.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-6.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-7.jpg" height="56" alt="Reference photo: Beach Sunset"> <img src="media/couple-beach-sunset/ref-8.jpg" height="56" alt="Reference photo: Beach Sunset"><br><br>
+<a href="https://refvid.com/couple-beach-sunset"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -719,12 +721,12 @@ Shot 3: [1] and [2] stand side by side seen from behind, looking out at the sun 
 ### Fashion Lookbook
 
 <p>
-<a href="https://refvid.com/templates/fashion-lookbook-walk"><img src="media/fashion-lookbook-walk/poster.jpg" height="240" align="left" alt="a woman in a camel coat walking down a cobbled Paris street"></a>
+<a href="https://refvid.com/fashion-lookbook-walk"><img src="media/fashion-lookbook-walk/poster.jpg" height="240" align="left" alt="a woman in a camel coat walking down a cobbled Paris street"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/fashion-lookbook-walk/ref-1.jpg" height="56" alt="Reference photo for Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-2.jpg" height="56" alt="Reference photo for Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-3.jpg" height="56" alt="Reference photo for Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-4.jpg" height="56" alt="Reference photo for Fashion Lookbook"><br><br>
-<a href="https://refvid.com/templates/fashion-lookbook-walk"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/fashion-lookbook-walk/ref-1.jpg" height="56" alt="Reference photo: Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-2.jpg" height="56" alt="Reference photo: Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-3.jpg" height="56" alt="Reference photo: Fashion Lookbook"> <img src="media/fashion-lookbook-walk/ref-4.jpg" height="56" alt="Reference photo: Fashion Lookbook"><br><br>
+<a href="https://refvid.com/fashion-lookbook-walk"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -739,12 +741,12 @@ Shot 3: Close-up as [1] turns over the shoulder toward the camera with a slight 
 ### Fitness Coach
 
 <p>
-<a href="https://refvid.com/templates/fitness-coach-demo"><img src="media/fitness-coach-demo/poster.jpg" height="240" align="left" alt="a man doing a squat in a gym"></a>
+<a href="https://refvid.com/fitness-coach-demo"><img src="media/fitness-coach-demo/poster.jpg" height="240" align="left" alt="a man doing a squat in a gym"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/fitness-coach-demo/ref-1.jpg" height="56" alt="Reference photo for Fitness Coach"> <img src="media/fitness-coach-demo/ref-2.jpg" height="56" alt="Reference photo for Fitness Coach"> <img src="media/fitness-coach-demo/ref-3.jpg" height="56" alt="Reference photo for Fitness Coach"> <img src="media/fitness-coach-demo/ref-4.jpg" height="56" alt="Reference photo for Fitness Coach"><br><br>
-<a href="https://refvid.com/templates/fitness-coach-demo"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/fitness-coach-demo/ref-1.jpg" height="56" alt="Reference photo: Fitness Coach"> <img src="media/fitness-coach-demo/ref-2.jpg" height="56" alt="Reference photo: Fitness Coach"> <img src="media/fitness-coach-demo/ref-3.jpg" height="56" alt="Reference photo: Fitness Coach"> <img src="media/fitness-coach-demo/ref-4.jpg" height="56" alt="Reference photo: Fitness Coach"><br><br>
+<a href="https://refvid.com/fitness-coach-demo"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -758,12 +760,12 @@ Shot 2: [1] stands up, looks into the camera and says with an encouraging smile:
 ### Bedsheet Ghost
 
 <p>
-<a href="https://refvid.com/templates/halloween-bedsheet-ghost"><img src="media/halloween-bedsheet-ghost/poster.jpg" height="240" align="left" alt="a white bedsheet ghost in sunglasses on a path of autumn leaves"></a>
+<a href="https://refvid.com/halloween-bedsheet-ghost"><img src="media/halloween-bedsheet-ghost/poster.jpg" height="240" align="left" alt="a white bedsheet ghost in sunglasses on a path of autumn leaves"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 6 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/halloween-bedsheet-ghost/ref-1.jpg" height="56" alt="Reference photo for Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-2.jpg" height="56" alt="Reference photo for Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-3.jpg" height="56" alt="Reference photo for Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-4.jpg" height="56" alt="Reference photo for Bedsheet Ghost"><br><br>
-<a href="https://refvid.com/templates/halloween-bedsheet-ghost"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/halloween-bedsheet-ghost/ref-1.jpg" height="56" alt="Reference photo: Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-2.jpg" height="56" alt="Reference photo: Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-3.jpg" height="56" alt="Reference photo: Bedsheet Ghost"> <img src="media/halloween-bedsheet-ghost/ref-4.jpg" height="56" alt="Reference photo: Bedsheet Ghost"><br><br>
+<a href="https://refvid.com/halloween-bedsheet-ghost"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -777,12 +779,12 @@ Shot 2: The figure pulls the sheet off: it is [1], smiling, the sheet over one a
 ### Costume Try-On
 
 <p>
-<a href="https://refvid.com/templates/halloween-costume-try-on"><img src="media/halloween-costume-try-on/poster.jpg" height="240" align="left" alt="a woman in a pumpkin costume at a mirror framed with string lights"></a>
+<a href="https://refvid.com/halloween-costume-try-on"><img src="media/halloween-costume-try-on/poster.jpg" height="240" align="left" alt="a woman in a pumpkin costume at a mirror framed with string lights"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/halloween-costume-try-on/ref-1.jpg" height="56" alt="Reference photo for Costume Try-On"> <img src="media/halloween-costume-try-on/ref-2.jpg" height="56" alt="Reference photo for Costume Try-On"> <img src="media/halloween-costume-try-on/ref-3.jpg" height="56" alt="Reference photo for Costume Try-On"> <img src="media/halloween-costume-try-on/ref-4.jpg" height="56" alt="Reference photo for Costume Try-On"><br><br>
-<a href="https://refvid.com/templates/halloween-costume-try-on"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/halloween-costume-try-on/ref-1.jpg" height="56" alt="Reference photo: Costume Try-On"> <img src="media/halloween-costume-try-on/ref-2.jpg" height="56" alt="Reference photo: Costume Try-On"> <img src="media/halloween-costume-try-on/ref-3.jpg" height="56" alt="Reference photo: Costume Try-On"> <img src="media/halloween-costume-try-on/ref-4.jpg" height="56" alt="Reference photo: Costume Try-On"><br><br>
+<a href="https://refvid.com/halloween-costume-try-on"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -797,12 +799,12 @@ Shot 3: Hard cut: [1] spins a third time and the pumpkin costume is gone; she la
 ### Pumpkin Head
 
 <p>
-<a href="https://refvid.com/templates/halloween-pumpkin-head"><img src="media/halloween-pumpkin-head/poster.jpg" height="240" align="left" alt="a person holding a glowing jack-o’-lantern in front of their face"></a>
+<a href="https://refvid.com/halloween-pumpkin-head"><img src="media/halloween-pumpkin-head/poster.jpg" height="240" align="left" alt="a person holding a glowing jack-o’-lantern in front of their face"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 6 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/halloween-pumpkin-head/ref-1.jpg" height="56" alt="Reference photo for Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-2.jpg" height="56" alt="Reference photo for Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-3.jpg" height="56" alt="Reference photo for Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-4.jpg" height="56" alt="Reference photo for Pumpkin Head"><br><br>
-<a href="https://refvid.com/templates/halloween-pumpkin-head"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/halloween-pumpkin-head/ref-1.jpg" height="56" alt="Reference photo: Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-2.jpg" height="56" alt="Reference photo: Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-3.jpg" height="56" alt="Reference photo: Pumpkin Head"> <img src="media/halloween-pumpkin-head/ref-4.jpg" height="56" alt="Reference photo: Pumpkin Head"><br><br>
+<a href="https://refvid.com/halloween-pumpkin-head"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -816,12 +818,12 @@ Shot 2: [1] lowers the pumpkin to chest height and looks straight into the camer
 ### Y2K Flash
 
 <p>
-<a href="https://refvid.com/templates/halloween-y2k-flash"><img src="media/halloween-y2k-flash/poster.jpg" height="240" align="left" alt="a woman in cat ears holding a red cup at a house party"></a>
+<a href="https://refvid.com/halloween-y2k-flash"><img src="media/halloween-y2k-flash/poster.jpg" height="240" align="left" alt="a woman in cat ears holding a red cup at a house party"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/halloween-y2k-flash/ref-1.jpg" height="56" alt="Reference photo for Y2K Flash"> <img src="media/halloween-y2k-flash/ref-2.jpg" height="56" alt="Reference photo for Y2K Flash"> <img src="media/halloween-y2k-flash/ref-3.jpg" height="56" alt="Reference photo for Y2K Flash"> <img src="media/halloween-y2k-flash/ref-4.jpg" height="56" alt="Reference photo for Y2K Flash"><br><br>
-<a href="https://refvid.com/templates/halloween-y2k-flash"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/halloween-y2k-flash/ref-1.jpg" height="56" alt="Reference photo: Y2K Flash"> <img src="media/halloween-y2k-flash/ref-2.jpg" height="56" alt="Reference photo: Y2K Flash"> <img src="media/halloween-y2k-flash/ref-3.jpg" height="56" alt="Reference photo: Y2K Flash"> <img src="media/halloween-y2k-flash/ref-4.jpg" height="56" alt="Reference photo: Y2K Flash"><br><br>
+<a href="https://refvid.com/halloween-y2k-flash"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -834,12 +836,12 @@ The look of a 2004 disposable-camera party photo: a night-time Halloween house p
 ### Zombie Walk
 
 <p>
-<a href="https://refvid.com/templates/halloween-zombie-walk"><img src="media/halloween-zombie-walk/poster.jpg" height="240" align="left" alt="a zombie walking through fog under a street lamp at night"></a>
+<a href="https://refvid.com/halloween-zombie-walk"><img src="media/halloween-zombie-walk/poster.jpg" height="240" align="left" alt="a zombie walking through fog under a street lamp at night"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/halloween-zombie-walk/ref-1.jpg" height="56" alt="Reference photo for Zombie Walk"> <img src="media/halloween-zombie-walk/ref-2.jpg" height="56" alt="Reference photo for Zombie Walk"> <img src="media/halloween-zombie-walk/ref-3.jpg" height="56" alt="Reference photo for Zombie Walk"> <img src="media/halloween-zombie-walk/ref-4.jpg" height="56" alt="Reference photo for Zombie Walk"><br><br>
-<a href="https://refvid.com/templates/halloween-zombie-walk"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/halloween-zombie-walk/ref-1.jpg" height="56" alt="Reference photo: Zombie Walk"> <img src="media/halloween-zombie-walk/ref-2.jpg" height="56" alt="Reference photo: Zombie Walk"> <img src="media/halloween-zombie-walk/ref-3.jpg" height="56" alt="Reference photo: Zombie Walk"> <img src="media/halloween-zombie-walk/ref-4.jpg" height="56" alt="Reference photo: Zombie Walk"><br><br>
+<a href="https://refvid.com/halloween-zombie-walk"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -853,12 +855,12 @@ Shot 2: Close-up of [1], still in the grey-green zombie face paint and fake bloo
 ### Video Intro
 
 <p>
-<a href="https://refvid.com/templates/linkedin-intro"><img src="media/linkedin-intro/poster.jpg" height="240" align="left" alt="a smiling man in a dark shirt seated in a bright office"></a>
+<a href="https://refvid.com/linkedin-intro"><img src="media/linkedin-intro/poster.jpg" height="240" align="left" alt="a smiling man in a dark shirt seated in a bright office"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/linkedin-intro/ref-1.jpg" height="56" alt="Reference photo for Video Intro"> <img src="media/linkedin-intro/ref-2.jpg" height="56" alt="Reference photo for Video Intro"> <img src="media/linkedin-intro/ref-3.jpg" height="56" alt="Reference photo for Video Intro"> <img src="media/linkedin-intro/ref-4.jpg" height="56" alt="Reference photo for Video Intro"><br><br>
-<a href="https://refvid.com/templates/linkedin-intro"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/linkedin-intro/ref-1.jpg" height="56" alt="Reference photo: Video Intro"> <img src="media/linkedin-intro/ref-2.jpg" height="56" alt="Reference photo: Video Intro"> <img src="media/linkedin-intro/ref-3.jpg" height="56" alt="Reference photo: Video Intro"> <img src="media/linkedin-intro/ref-4.jpg" height="56" alt="Reference photo: Video Intro"><br><br>
+<a href="https://refvid.com/linkedin-intro"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -871,12 +873,12 @@ Medium shot of [1] sitting in a bright modern office with plants and a window be
 ### Mini Drama
 
 <p>
-<a href="https://refvid.com/templates/mini-drama-scene"><img src="media/mini-drama-scene/poster.jpg" height="240" align="left" alt="a woman and a man talking at a café table by a rainy window"></a>
+<a href="https://refvid.com/mini-drama-scene"><img src="media/mini-drama-scene/poster.jpg" height="240" align="left" alt="a woman and a man talking at a café table by a rainy window"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> the first lead · <code>[2]</code> the second lead<br><br>
-<b>Reference photos</b><br><img src="media/mini-drama-scene/ref-1.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-2.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-3.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-4.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-5.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-6.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-7.jpg" height="56" alt="Reference photo for Mini Drama"> <img src="media/mini-drama-scene/ref-8.jpg" height="56" alt="Reference photo for Mini Drama"><br><br>
-<a href="https://refvid.com/templates/mini-drama-scene"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/mini-drama-scene/ref-1.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-2.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-3.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-4.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-5.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-6.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-7.jpg" height="56" alt="Reference photo: Mini Drama"> <img src="media/mini-drama-scene/ref-8.jpg" height="56" alt="Reference photo: Mini Drama"><br><br>
+<a href="https://refvid.com/mini-drama-scene"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -891,12 +893,12 @@ Shot 3: Close-up of [2], looking down, then up, and answering: "I was going to t
 ### Morning Routine
 
 <p>
-<a href="https://refvid.com/templates/morning-routine"><img src="media/morning-routine/poster.jpg" height="240" align="left" alt="hands pouring hot water from a kettle into a pour-over coffee maker"></a>
+<a href="https://refvid.com/morning-routine"><img src="media/morning-routine/poster.jpg" height="240" align="left" alt="hands pouring hot water from a kettle into a pour-over coffee maker"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/morning-routine/ref-1.jpg" height="56" alt="Reference photo for Morning Routine"> <img src="media/morning-routine/ref-2.jpg" height="56" alt="Reference photo for Morning Routine"> <img src="media/morning-routine/ref-3.jpg" height="56" alt="Reference photo for Morning Routine"> <img src="media/morning-routine/ref-4.jpg" height="56" alt="Reference photo for Morning Routine"><br><br>
-<a href="https://refvid.com/templates/morning-routine"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/morning-routine/ref-1.jpg" height="56" alt="Reference photo: Morning Routine"> <img src="media/morning-routine/ref-2.jpg" height="56" alt="Reference photo: Morning Routine"> <img src="media/morning-routine/ref-3.jpg" height="56" alt="Reference photo: Morning Routine"> <img src="media/morning-routine/ref-4.jpg" height="56" alt="Reference photo: Morning Routine"><br><br>
+<a href="https://refvid.com/morning-routine"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -910,12 +912,12 @@ Shot 2: [1] sits by the window with the mug in both hands, takes a slow first si
 ### New Year Countdown
 
 <p>
-<a href="https://refvid.com/templates/new-year-countdown"><img src="media/new-year-countdown/poster.jpg" height="240" align="left" alt="a woman with a glass of champagne on a rooftop under fireworks"></a>
+<a href="https://refvid.com/new-year-countdown"><img src="media/new-year-countdown/poster.jpg" height="240" align="left" alt="a woman with a glass of champagne on a rooftop under fireworks"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/new-year-countdown/ref-1.jpg" height="56" alt="Reference photo for New Year Countdown"> <img src="media/new-year-countdown/ref-2.jpg" height="56" alt="Reference photo for New Year Countdown"> <img src="media/new-year-countdown/ref-3.jpg" height="56" alt="Reference photo for New Year Countdown"> <img src="media/new-year-countdown/ref-4.jpg" height="56" alt="Reference photo for New Year Countdown"><br><br>
-<a href="https://refvid.com/templates/new-year-countdown"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/new-year-countdown/ref-1.jpg" height="56" alt="Reference photo: New Year Countdown"> <img src="media/new-year-countdown/ref-2.jpg" height="56" alt="Reference photo: New Year Countdown"> <img src="media/new-year-countdown/ref-3.jpg" height="56" alt="Reference photo: New Year Countdown"> <img src="media/new-year-countdown/ref-4.jpg" height="56" alt="Reference photo: New Year Countdown"><br><br>
+<a href="https://refvid.com/new-year-countdown"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -929,12 +931,12 @@ Shot 2: [1] turns toward the camera and cheers "Happy New Year!", glass raised, 
 ### Podcast Host
 
 <p>
-<a href="https://refvid.com/templates/podcast-host"><img src="media/podcast-host/poster.jpg" height="240" align="left" alt="a man in headphones talking into a podcast microphone at a desk"></a>
+<a href="https://refvid.com/podcast-host"><img src="media/podcast-host/poster.jpg" height="240" align="left" alt="a man in headphones talking into a podcast microphone at a desk"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/podcast-host/ref-1.jpg" height="56" alt="Reference photo for Podcast Host"> <img src="media/podcast-host/ref-2.jpg" height="56" alt="Reference photo for Podcast Host"> <img src="media/podcast-host/ref-3.jpg" height="56" alt="Reference photo for Podcast Host"> <img src="media/podcast-host/ref-4.jpg" height="56" alt="Reference photo for Podcast Host"><br><br>
-<a href="https://refvid.com/templates/podcast-host"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/podcast-host/ref-1.jpg" height="56" alt="Reference photo: Podcast Host"> <img src="media/podcast-host/ref-2.jpg" height="56" alt="Reference photo: Podcast Host"> <img src="media/podcast-host/ref-3.jpg" height="56" alt="Reference photo: Podcast Host"> <img src="media/podcast-host/ref-4.jpg" height="56" alt="Reference photo: Podcast Host"><br><br>
+<a href="https://refvid.com/podcast-host"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -947,12 +949,12 @@ Medium shot of [1] at a podcast studio desk with a microphone on a boom arm and 
 ### Rap Duo
 
 <p>
-<a href="https://refvid.com/templates/rap-duo-booth"><img src="media/rap-duo-booth/poster.jpg" height="240" align="left" alt="a woman and a man at two microphones in front of an orange wall"></a>
+<a href="https://refvid.com/rap-duo-booth"><img src="media/rap-duo-booth/poster.jpg" height="240" align="left" alt="a woman and a man at two microphones in front of an orange wall"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 15 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your rap partner<br><br>
-<b>Reference photos</b><br><img src="media/rap-duo-booth/ref-1.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-2.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-3.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-4.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-5.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-6.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-7.jpg" height="56" alt="Reference photo for Rap Duo"> <img src="media/rap-duo-booth/ref-8.jpg" height="56" alt="Reference photo for Rap Duo"><br><br>
-<a href="https://refvid.com/templates/rap-duo-booth"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/rap-duo-booth/ref-1.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-2.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-3.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-4.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-5.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-6.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-7.jpg" height="56" alt="Reference photo: Rap Duo"> <img src="media/rap-duo-booth/ref-8.jpg" height="56" alt="Reference photo: Rap Duo"><br><br>
+<a href="https://refvid.com/rap-duo-booth"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -965,12 +967,12 @@ Inside a small music studio booth with seamless bright orange walls and floor, e
 ### Superhero Landing
 
 <p>
-<a href="https://refvid.com/templates/superhero-landing"><img src="media/superhero-landing/poster.jpg" height="240" align="left" alt="a woman in a dark suit landing on a wet rooftop under a stormy sky"></a>
+<a href="https://refvid.com/superhero-landing"><img src="media/superhero-landing/poster.jpg" height="240" align="left" alt="a woman in a dark suit landing on a wet rooftop under a stormy sky"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/superhero-landing/ref-1.jpg" height="56" alt="Reference photo for Superhero Landing"> <img src="media/superhero-landing/ref-2.jpg" height="56" alt="Reference photo for Superhero Landing"> <img src="media/superhero-landing/ref-3.jpg" height="56" alt="Reference photo for Superhero Landing"> <img src="media/superhero-landing/ref-4.jpg" height="56" alt="Reference photo for Superhero Landing"><br><br>
-<a href="https://refvid.com/templates/superhero-landing"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/superhero-landing/ref-1.jpg" height="56" alt="Reference photo: Superhero Landing"> <img src="media/superhero-landing/ref-2.jpg" height="56" alt="Reference photo: Superhero Landing"> <img src="media/superhero-landing/ref-3.jpg" height="56" alt="Reference photo: Superhero Landing"> <img src="media/superhero-landing/ref-4.jpg" height="56" alt="Reference photo: Superhero Landing"><br><br>
+<a href="https://refvid.com/superhero-landing"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -984,12 +986,12 @@ Shot 2: [1] rises slowly from the landing and looks straight into the camera, wi
 ### Talking Head Ad
 
 <p>
-<a href="https://refvid.com/templates/talking-head-ad"><img src="media/talking-head-ad/poster.jpg" height="240" align="left" alt="a smiling woman in a green jacket facing the camera at a table"></a>
+<a href="https://refvid.com/talking-head-ad"><img src="media/talking-head-ad/poster.jpg" height="240" align="left" alt="a smiling woman in a green jacket facing the camera at a table"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> the presenter<br><br>
-<b>Reference photos</b><br><img src="media/talking-head-ad/ref-1.jpg" height="56" alt="Reference photo for Talking Head Ad"> <img src="media/talking-head-ad/ref-2.jpg" height="56" alt="Reference photo for Talking Head Ad"> <img src="media/talking-head-ad/ref-3.jpg" height="56" alt="Reference photo for Talking Head Ad"> <img src="media/talking-head-ad/ref-4.jpg" height="56" alt="Reference photo for Talking Head Ad"><br><br>
-<a href="https://refvid.com/templates/talking-head-ad"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/talking-head-ad/ref-1.jpg" height="56" alt="Reference photo: Talking Head Ad"> <img src="media/talking-head-ad/ref-2.jpg" height="56" alt="Reference photo: Talking Head Ad"> <img src="media/talking-head-ad/ref-3.jpg" height="56" alt="Reference photo: Talking Head Ad"> <img src="media/talking-head-ad/ref-4.jpg" height="56" alt="Reference photo: Talking Head Ad"><br><br>
+<a href="https://refvid.com/talking-head-ad"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1002,12 +1004,12 @@ Medium close-up of [1] sitting in a bright home office, looking straight into th
 ### Thanksgiving Toast
 
 <p>
-<a href="https://refvid.com/templates/thanksgiving-table"><img src="media/thanksgiving-table/poster.jpg" height="240" align="left" alt="a Thanksgiving table with a roast turkey, pumpkins, candles and wine"></a>
+<a href="https://refvid.com/thanksgiving-table"><img src="media/thanksgiving-table/poster.jpg" height="240" align="left" alt="a Thanksgiving table with a roast turkey, pumpkins, candles and wine"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/thanksgiving-table/ref-1.jpg" height="56" alt="Reference photo for Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-2.jpg" height="56" alt="Reference photo for Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-3.jpg" height="56" alt="Reference photo for Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-4.jpg" height="56" alt="Reference photo for Thanksgiving Toast"><br><br>
-<a href="https://refvid.com/templates/thanksgiving-table"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/thanksgiving-table/ref-1.jpg" height="56" alt="Reference photo: Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-2.jpg" height="56" alt="Reference photo: Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-3.jpg" height="56" alt="Reference photo: Thanksgiving Toast"> <img src="media/thanksgiving-table/ref-4.jpg" height="56" alt="Reference photo: Thanksgiving Toast"><br><br>
+<a href="https://refvid.com/thanksgiving-table"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1021,12 +1023,12 @@ Shot 2: [1] stands, raises a glass of red wine toward the camera and says with a
 ### Travel Vlog
 
 <p>
-<a href="https://refvid.com/templates/travel-vlog-walk"><img src="media/travel-vlog-walk/poster.jpg" height="240" align="left" alt="a woman taking a selfie on a cobbled street in an Italian town"></a>
+<a href="https://refvid.com/travel-vlog-walk"><img src="media/travel-vlog-walk/poster.jpg" height="240" align="left" alt="a woman taking a selfie on a cobbled street in an Italian town"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/travel-vlog-walk/ref-1.jpg" height="56" alt="Reference photo for Travel Vlog"> <img src="media/travel-vlog-walk/ref-2.jpg" height="56" alt="Reference photo for Travel Vlog"> <img src="media/travel-vlog-walk/ref-3.jpg" height="56" alt="Reference photo for Travel Vlog"> <img src="media/travel-vlog-walk/ref-4.jpg" height="56" alt="Reference photo for Travel Vlog"><br><br>
-<a href="https://refvid.com/templates/travel-vlog-walk"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/travel-vlog-walk/ref-1.jpg" height="56" alt="Reference photo: Travel Vlog"> <img src="media/travel-vlog-walk/ref-2.jpg" height="56" alt="Reference photo: Travel Vlog"> <img src="media/travel-vlog-walk/ref-3.jpg" height="56" alt="Reference photo: Travel Vlog"> <img src="media/travel-vlog-walk/ref-4.jpg" height="56" alt="Reference photo: Travel Vlog"><br><br>
+<a href="https://refvid.com/travel-vlog-walk"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1041,12 +1043,12 @@ Shot 3: [1] turns the camera around to reveal a wide view over terracotta roofto
 ### Save the Date
 
 <p>
-<a href="https://refvid.com/templates/wedding-save-the-date"><img src="media/wedding-save-the-date/poster.jpg" height="240" align="left" alt="a couple walking hand in hand along a rose garden path"></a>
+<a href="https://refvid.com/wedding-save-the-date"><img src="media/wedding-save-the-date/poster.jpg" height="240" align="left" alt="a couple walking hand in hand along a rose garden path"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your partner<br><br>
-<b>Reference photos</b><br><img src="media/wedding-save-the-date/ref-1.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-2.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-3.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-4.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-5.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-6.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-7.jpg" height="56" alt="Reference photo for Save the Date"> <img src="media/wedding-save-the-date/ref-8.jpg" height="56" alt="Reference photo for Save the Date"><br><br>
-<a href="https://refvid.com/templates/wedding-save-the-date"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/wedding-save-the-date/ref-1.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-2.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-3.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-4.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-5.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-6.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-7.jpg" height="56" alt="Reference photo: Save the Date"> <img src="media/wedding-save-the-date/ref-8.jpg" height="56" alt="Reference photo: Save the Date"><br><br>
+<a href="https://refvid.com/wedding-save-the-date"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1067,12 +1069,12 @@ Your own dog or cat, the same pet in every shot.
 ### Dog Rap
 
 <p>
-<a href="https://refvid.com/templates/dog-rap-video"><img src="media/dog-rap-video/poster.jpg" height="240" align="left" alt="a man in headphones and a corgi in a gold chain at a studio microphone"></a>
+<a href="https://refvid.com/dog-rap-video"><img src="media/dog-rap-video/poster.jpg" height="240" align="left" alt="a man in headphones and a corgi in a gold chain at a studio microphone"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> you · <code>[2]</code> your dog<br><br>
-<b>Reference photos</b><br><img src="media/dog-rap-video/ref-1.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-2.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-3.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-4.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-5.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-6.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-7.jpg" height="56" alt="Reference photo for Dog Rap"> <img src="media/dog-rap-video/ref-8.jpg" height="56" alt="Reference photo for Dog Rap"><br><br>
-<a href="https://refvid.com/templates/dog-rap-video"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/dog-rap-video/ref-1.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-2.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-3.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-4.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-5.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-6.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-7.jpg" height="56" alt="Reference photo: Dog Rap"> <img src="media/dog-rap-video/ref-8.jpg" height="56" alt="Reference photo: Dog Rap"><br><br>
+<a href="https://refvid.com/dog-rap-video"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1085,12 +1087,12 @@ Inside a small recording studio booth with dark acoustic foam walls and warm ora
 ### Pet Sunset Walk
 
 <p>
-<a href="https://refvid.com/templates/pet-and-owner-sunset"><img src="media/pet-and-owner-sunset/poster.jpg" height="240" align="left" alt="a woman and a corgi walking on a beach at sunset"></a>
+<a href="https://refvid.com/pet-and-owner-sunset"><img src="media/pet-and-owner-sunset/poster.jpg" height="240" align="left" alt="a woman and a corgi walking on a beach at sunset"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet · <code>[2]</code> you<br><br>
-<b>Reference photos</b><br><img src="media/pet-and-owner-sunset/ref-1.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-2.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-3.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-4.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-5.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-6.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-7.jpg" height="56" alt="Reference photo for Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-8.jpg" height="56" alt="Reference photo for Pet Sunset Walk"><br><br>
-<a href="https://refvid.com/templates/pet-and-owner-sunset"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-and-owner-sunset/ref-1.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-2.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-3.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-4.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-5.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-6.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-7.jpg" height="56" alt="Reference photo: Pet Sunset Walk"> <img src="media/pet-and-owner-sunset/ref-8.jpg" height="56" alt="Reference photo: Pet Sunset Walk"><br><br>
+<a href="https://refvid.com/pet-and-owner-sunset"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1104,12 +1106,12 @@ Shot 2: [2] and [1] sit side by side on the sand seen from behind, looking out a
 ### Pet Astronaut
 
 <p>
-<a href="https://refvid.com/templates/pet-astronaut"><img src="media/pet-astronaut/poster.jpg" height="240" align="left" alt="a cat in a space suit floating by a spaceship window with Earth behind"></a>
+<a href="https://refvid.com/pet-astronaut"><img src="media/pet-astronaut/poster.jpg" height="240" align="left" alt="a cat in a space suit floating by a spaceship window with Earth behind"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-astronaut/ref-1.jpg" height="56" alt="Reference photo for Pet Astronaut"> <img src="media/pet-astronaut/ref-2.jpg" height="56" alt="Reference photo for Pet Astronaut"> <img src="media/pet-astronaut/ref-3.jpg" height="56" alt="Reference photo for Pet Astronaut"> <img src="media/pet-astronaut/ref-4.jpg" height="56" alt="Reference photo for Pet Astronaut"><br><br>
-<a href="https://refvid.com/templates/pet-astronaut"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-astronaut/ref-1.jpg" height="56" alt="Reference photo: Pet Astronaut"> <img src="media/pet-astronaut/ref-2.jpg" height="56" alt="Reference photo: Pet Astronaut"> <img src="media/pet-astronaut/ref-3.jpg" height="56" alt="Reference photo: Pet Astronaut"> <img src="media/pet-astronaut/ref-4.jpg" height="56" alt="Reference photo: Pet Astronaut"><br><br>
+<a href="https://refvid.com/pet-astronaut"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1122,12 +1124,12 @@ Inside a bright space station, [1] in a small white astronaut suit with the helm
 ### Pet Birthday
 
 <p>
-<a href="https://refvid.com/templates/pet-birthday-party"><img src="media/pet-birthday-party/poster.jpg" height="240" align="left" alt="a corgi in a party hat behind a birthday cake with balloons"></a>
+<a href="https://refvid.com/pet-birthday-party"><img src="media/pet-birthday-party/poster.jpg" height="240" align="left" alt="a corgi in a party hat behind a birthday cake with balloons"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-birthday-party/ref-1.jpg" height="56" alt="Reference photo for Pet Birthday"> <img src="media/pet-birthday-party/ref-2.jpg" height="56" alt="Reference photo for Pet Birthday"> <img src="media/pet-birthday-party/ref-3.jpg" height="56" alt="Reference photo for Pet Birthday"> <img src="media/pet-birthday-party/ref-4.jpg" height="56" alt="Reference photo for Pet Birthday"><br><br>
-<a href="https://refvid.com/templates/pet-birthday-party"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-birthday-party/ref-1.jpg" height="56" alt="Reference photo: Pet Birthday"> <img src="media/pet-birthday-party/ref-2.jpg" height="56" alt="Reference photo: Pet Birthday"> <img src="media/pet-birthday-party/ref-3.jpg" height="56" alt="Reference photo: Pet Birthday"> <img src="media/pet-birthday-party/ref-4.jpg" height="56" alt="Reference photo: Pet Birthday"><br><br>
+<a href="https://refvid.com/pet-birthday-party"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1141,12 +1143,12 @@ Shot 2: [1] looks up at the camera next to the cake, tilts its head and makes on
 ### Pet Chef
 
 <p>
-<a href="https://refvid.com/templates/pet-chef"><img src="media/pet-chef/poster.jpg" height="240" align="left" alt="a ginger cat in a chef’s hat at a stove with a pan of vegetables"></a>
+<a href="https://refvid.com/pet-chef"><img src="media/pet-chef/poster.jpg" height="240" align="left" alt="a ginger cat in a chef’s hat at a stove with a pan of vegetables"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-chef/ref-1.jpg" height="56" alt="Reference photo for Pet Chef"> <img src="media/pet-chef/ref-2.jpg" height="56" alt="Reference photo for Pet Chef"> <img src="media/pet-chef/ref-3.jpg" height="56" alt="Reference photo for Pet Chef"> <img src="media/pet-chef/ref-4.jpg" height="56" alt="Reference photo for Pet Chef"><br><br>
-<a href="https://refvid.com/templates/pet-chef"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-chef/ref-1.jpg" height="56" alt="Reference photo: Pet Chef"> <img src="media/pet-chef/ref-2.jpg" height="56" alt="Reference photo: Pet Chef"> <img src="media/pet-chef/ref-3.jpg" height="56" alt="Reference photo: Pet Chef"> <img src="media/pet-chef/ref-4.jpg" height="56" alt="Reference photo: Pet Chef"><br><br>
+<a href="https://refvid.com/pet-chef"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1160,12 +1162,12 @@ Shot 2: [1] sits next to a finished plate of colourful stir-fry and looks proudl
 ### Pet Christmas
 
 <p>
-<a href="https://refvid.com/templates/pet-christmas-morning"><img src="media/pet-christmas-morning/poster.jpg" height="240" align="left" alt="a corgi opening a red present by a Christmas tree"></a>
+<a href="https://refvid.com/pet-christmas-morning"><img src="media/pet-christmas-morning/poster.jpg" height="240" align="left" alt="a corgi opening a red present by a Christmas tree"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-christmas-morning/ref-1.jpg" height="56" alt="Reference photo for Pet Christmas"> <img src="media/pet-christmas-morning/ref-2.jpg" height="56" alt="Reference photo for Pet Christmas"> <img src="media/pet-christmas-morning/ref-3.jpg" height="56" alt="Reference photo for Pet Christmas"> <img src="media/pet-christmas-morning/ref-4.jpg" height="56" alt="Reference photo for Pet Christmas"><br><br>
-<a href="https://refvid.com/templates/pet-christmas-morning"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-christmas-morning/ref-1.jpg" height="56" alt="Reference photo: Pet Christmas"> <img src="media/pet-christmas-morning/ref-2.jpg" height="56" alt="Reference photo: Pet Christmas"> <img src="media/pet-christmas-morning/ref-3.jpg" height="56" alt="Reference photo: Pet Christmas"> <img src="media/pet-christmas-morning/ref-4.jpg" height="56" alt="Reference photo: Pet Christmas"><br><br>
+<a href="https://refvid.com/pet-christmas-morning"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1179,12 +1181,12 @@ Shot 2: Close-up in the same living room, the lit Christmas tree glowing behind:
 ### Pet Comes to Life
 
 <p>
-<a href="https://refvid.com/templates/pet-comes-to-life"><img src="media/pet-comes-to-life/poster.jpg" height="240" align="left" alt="a corgi lying on a blanket on a sofa by a sunny window"></a>
+<a href="https://refvid.com/pet-comes-to-life"><img src="media/pet-comes-to-life/poster.jpg" height="240" align="left" alt="a corgi lying on a blanket on a sofa by a sunny window"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-comes-to-life/ref-1.jpg" height="56" alt="Reference photo for Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-2.jpg" height="56" alt="Reference photo for Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-3.jpg" height="56" alt="Reference photo for Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-4.jpg" height="56" alt="Reference photo for Pet Comes to Life"><br><br>
-<a href="https://refvid.com/templates/pet-comes-to-life"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-comes-to-life/ref-1.jpg" height="56" alt="Reference photo: Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-2.jpg" height="56" alt="Reference photo: Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-3.jpg" height="56" alt="Reference photo: Pet Comes to Life"> <img src="media/pet-comes-to-life/ref-4.jpg" height="56" alt="Reference photo: Pet Comes to Life"><br><br>
+<a href="https://refvid.com/pet-comes-to-life"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1197,12 +1199,12 @@ Shot 2: Close-up in the same living room, the lit Christmas tree glowing behind:
 ### Pet Family Portrait
 
 <p>
-<a href="https://refvid.com/templates/pet-family-portrait"><img src="media/pet-family-portrait/poster.jpg" height="240" align="left" alt="a corgi and a ginger cat sitting together on a grey sofa"></a>
+<a href="https://refvid.com/pet-family-portrait"><img src="media/pet-family-portrait/poster.jpg" height="240" align="left" alt="a corgi and a ginger cat sitting together on a grey sofa"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your first pet · <code>[2]</code> your second pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-family-portrait/ref-1.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-2.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-3.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-4.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-5.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-6.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-7.jpg" height="56" alt="Reference photo for Pet Family Portrait"> <img src="media/pet-family-portrait/ref-8.jpg" height="56" alt="Reference photo for Pet Family Portrait"><br><br>
-<a href="https://refvid.com/templates/pet-family-portrait"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-family-portrait/ref-1.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-2.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-3.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-4.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-5.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-6.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-7.jpg" height="56" alt="Reference photo: Pet Family Portrait"> <img src="media/pet-family-portrait/ref-8.jpg" height="56" alt="Reference photo: Pet Family Portrait"><br><br>
+<a href="https://refvid.com/pet-family-portrait"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1215,12 +1217,12 @@ Shot 2: Close-up in the same living room, the lit Christmas tree glowing behind:
 ### Pet Costume
 
 <p>
-<a href="https://refvid.com/templates/pet-halloween-costume"><img src="media/pet-halloween-costume/poster.jpg" height="240" align="left" alt="a corgi in an orange costume on porch steps with jack-o’-lanterns"></a>
+<a href="https://refvid.com/pet-halloween-costume"><img src="media/pet-halloween-costume/poster.jpg" height="240" align="left" alt="a corgi in an orange costume on porch steps with jack-o’-lanterns"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 6 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-halloween-costume/ref-1.jpg" height="56" alt="Reference photo for Pet Costume"> <img src="media/pet-halloween-costume/ref-2.jpg" height="56" alt="Reference photo for Pet Costume"> <img src="media/pet-halloween-costume/ref-3.jpg" height="56" alt="Reference photo for Pet Costume"> <img src="media/pet-halloween-costume/ref-4.jpg" height="56" alt="Reference photo for Pet Costume"><br><br>
-<a href="https://refvid.com/templates/pet-halloween-costume"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-halloween-costume/ref-1.jpg" height="56" alt="Reference photo: Pet Costume"> <img src="media/pet-halloween-costume/ref-2.jpg" height="56" alt="Reference photo: Pet Costume"> <img src="media/pet-halloween-costume/ref-3.jpg" height="56" alt="Reference photo: Pet Costume"> <img src="media/pet-halloween-costume/ref-4.jpg" height="56" alt="Reference photo: Pet Costume"><br><br>
+<a href="https://refvid.com/pet-halloween-costume"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1234,12 +1236,12 @@ Shot 2: [1] looks up at the camera next to a bowl of wrapped candy, tilts its he
 ### Pet Memorial
 
 <p>
-<a href="https://refvid.com/templates/pet-memorial"><img src="media/pet-memorial/poster.jpg" height="240" align="left" alt="a golden retriever running through a flower meadow under a rainbow"></a>
+<a href="https://refvid.com/pet-memorial"><img src="media/pet-memorial/poster.jpg" height="240" align="left" alt="a golden retriever running through a flower meadow under a rainbow"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-memorial/ref-1.jpg" height="56" alt="Reference photo for Pet Memorial"> <img src="media/pet-memorial/ref-2.jpg" height="56" alt="Reference photo for Pet Memorial"> <img src="media/pet-memorial/ref-3.jpg" height="56" alt="Reference photo for Pet Memorial"> <img src="media/pet-memorial/ref-4.jpg" height="56" alt="Reference photo for Pet Memorial"><br><br>
-<a href="https://refvid.com/templates/pet-memorial"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-memorial/ref-1.jpg" height="56" alt="Reference photo: Pet Memorial"> <img src="media/pet-memorial/ref-2.jpg" height="56" alt="Reference photo: Pet Memorial"> <img src="media/pet-memorial/ref-3.jpg" height="56" alt="Reference photo: Pet Memorial"> <img src="media/pet-memorial/ref-4.jpg" height="56" alt="Reference photo: Pet Memorial"><br><br>
+<a href="https://refvid.com/pet-memorial"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1253,12 +1255,12 @@ Shot 2: Close-up in the same meadow at golden hour, the rainbow glowing behind: 
 ### Pet News Anchor
 
 <p>
-<a href="https://refvid.com/templates/pet-news-anchor"><img src="media/pet-news-anchor/poster.jpg" height="240" align="left" alt="a corgi in a red tie at a news desk with a city skyline at night"></a>
+<a href="https://refvid.com/pet-news-anchor"><img src="media/pet-news-anchor/poster.jpg" height="240" align="left" alt="a corgi in a red tie at a news desk with a city skyline at night"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-news-anchor/ref-1.jpg" height="56" alt="Reference photo for Pet News Anchor"> <img src="media/pet-news-anchor/ref-2.jpg" height="56" alt="Reference photo for Pet News Anchor"> <img src="media/pet-news-anchor/ref-3.jpg" height="56" alt="Reference photo for Pet News Anchor"> <img src="media/pet-news-anchor/ref-4.jpg" height="56" alt="Reference photo for Pet News Anchor"><br><br>
-<a href="https://refvid.com/templates/pet-news-anchor"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-news-anchor/ref-1.jpg" height="56" alt="Reference photo: Pet News Anchor"> <img src="media/pet-news-anchor/ref-2.jpg" height="56" alt="Reference photo: Pet News Anchor"> <img src="media/pet-news-anchor/ref-3.jpg" height="56" alt="Reference photo: Pet News Anchor"> <img src="media/pet-news-anchor/ref-4.jpg" height="56" alt="Reference photo: Pet News Anchor"><br><br>
+<a href="https://refvid.com/pet-news-anchor"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1271,12 +1273,12 @@ A TV news studio with bright lights and a city skyline on the screen behind: [1]
 ### Pet Ring Bearer
 
 <p>
-<a href="https://refvid.com/templates/pet-ring-bearer"><img src="media/pet-ring-bearer/poster.jpg" height="240" align="left" alt="a corgi walking down a garden wedding aisle between the guests"></a>
+<a href="https://refvid.com/pet-ring-bearer"><img src="media/pet-ring-bearer/poster.jpg" height="240" align="left" alt="a corgi walking down a garden wedding aisle between the guests"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-ring-bearer/ref-1.jpg" height="56" alt="Reference photo for Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-2.jpg" height="56" alt="Reference photo for Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-3.jpg" height="56" alt="Reference photo for Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-4.jpg" height="56" alt="Reference photo for Pet Ring Bearer"><br><br>
-<a href="https://refvid.com/templates/pet-ring-bearer"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-ring-bearer/ref-1.jpg" height="56" alt="Reference photo: Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-2.jpg" height="56" alt="Reference photo: Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-3.jpg" height="56" alt="Reference photo: Pet Ring Bearer"> <img src="media/pet-ring-bearer/ref-4.jpg" height="56" alt="Reference photo: Pet Ring Bearer"><br><br>
+<a href="https://refvid.com/pet-ring-bearer"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1289,12 +1291,12 @@ A garden wedding in soft afternoon light: [1] wearing a small flower collar walk
 ### Pet Runway
 
 <p>
-<a href="https://refvid.com/templates/pet-runway-walk"><img src="media/pet-runway-walk/poster.jpg" height="240" align="left" alt="a corgi walking a catwalk between rows of photographers"></a>
+<a href="https://refvid.com/pet-runway-walk"><img src="media/pet-runway-walk/poster.jpg" height="240" align="left" alt="a corgi walking a catwalk between rows of photographers"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-runway-walk/ref-1.jpg" height="56" alt="Reference photo for Pet Runway"> <img src="media/pet-runway-walk/ref-2.jpg" height="56" alt="Reference photo for Pet Runway"> <img src="media/pet-runway-walk/ref-3.jpg" height="56" alt="Reference photo for Pet Runway"> <img src="media/pet-runway-walk/ref-4.jpg" height="56" alt="Reference photo for Pet Runway"><br><br>
-<a href="https://refvid.com/templates/pet-runway-walk"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-runway-walk/ref-1.jpg" height="56" alt="Reference photo: Pet Runway"> <img src="media/pet-runway-walk/ref-2.jpg" height="56" alt="Reference photo: Pet Runway"> <img src="media/pet-runway-walk/ref-3.jpg" height="56" alt="Reference photo: Pet Runway"> <img src="media/pet-runway-walk/ref-4.jpg" height="56" alt="Reference photo: Pet Runway"><br><br>
+<a href="https://refvid.com/pet-runway-walk"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1307,12 +1309,12 @@ A garden wedding in soft afternoon light: [1] wearing a small flower collar walk
 ### Pet Underwater
 
 <p>
-<a href="https://refvid.com/templates/pet-underwater-swim"><img src="media/pet-underwater-swim/poster.jpg" height="240" align="left" alt="a corgi swimming underwater in a turquoise pool"></a>
+<a href="https://refvid.com/pet-underwater-swim"><img src="media/pet-underwater-swim/poster.jpg" height="240" align="left" alt="a corgi swimming underwater in a turquoise pool"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your pet<br><br>
-<b>Reference photos</b><br><img src="media/pet-underwater-swim/ref-1.jpg" height="56" alt="Reference photo for Pet Underwater"> <img src="media/pet-underwater-swim/ref-2.jpg" height="56" alt="Reference photo for Pet Underwater"> <img src="media/pet-underwater-swim/ref-3.jpg" height="56" alt="Reference photo for Pet Underwater"> <img src="media/pet-underwater-swim/ref-4.jpg" height="56" alt="Reference photo for Pet Underwater"><br><br>
-<a href="https://refvid.com/templates/pet-underwater-swim"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/pet-underwater-swim/ref-1.jpg" height="56" alt="Reference photo: Pet Underwater"> <img src="media/pet-underwater-swim/ref-2.jpg" height="56" alt="Reference photo: Pet Underwater"> <img src="media/pet-underwater-swim/ref-3.jpg" height="56" alt="Reference photo: Pet Underwater"> <img src="media/pet-underwater-swim/ref-4.jpg" height="56" alt="Reference photo: Pet Underwater"><br><br>
+<a href="https://refvid.com/pet-underwater-swim"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1331,12 +1333,12 @@ A toy, a figure, a car or a drawn character kept the same.
 ### Claymation
 
 <p>
-<a href="https://refvid.com/templates/clay-figure-stopmotion"><img src="media/clay-figure-stopmotion/poster.jpg" height="240" align="left" alt="a clay figure in a yellow beanie among little clay houses"></a>
+<a href="https://refvid.com/clay-figure-stopmotion"><img src="media/clay-figure-stopmotion/poster.jpg" height="240" align="left" alt="a clay figure in a yellow beanie among little clay houses"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your clay character<br><br>
-<b>Reference photos</b><br><img src="media/clay-figure-stopmotion/ref-1.jpg" height="56" alt="Reference photo for Claymation"> <img src="media/clay-figure-stopmotion/ref-2.jpg" height="56" alt="Reference photo for Claymation"> <img src="media/clay-figure-stopmotion/ref-3.jpg" height="56" alt="Reference photo for Claymation"> <img src="media/clay-figure-stopmotion/ref-4.jpg" height="56" alt="Reference photo for Claymation"><br><br>
-<a href="https://refvid.com/templates/clay-figure-stopmotion"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/clay-figure-stopmotion/ref-1.jpg" height="56" alt="Reference photo: Claymation"> <img src="media/clay-figure-stopmotion/ref-2.jpg" height="56" alt="Reference photo: Claymation"> <img src="media/clay-figure-stopmotion/ref-3.jpg" height="56" alt="Reference photo: Claymation"> <img src="media/clay-figure-stopmotion/ref-4.jpg" height="56" alt="Reference photo: Claymation"><br><br>
+<a href="https://refvid.com/clay-figure-stopmotion"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1350,12 +1352,12 @@ Shot 2: [1] stops, turns to the camera and waves with one clay hand, then gives 
 ### Crochet Showcase
 
 <p>
-<a href="https://refvid.com/templates/crochet-showcase"><img src="media/crochet-showcase/poster.jpg" height="240" align="left" alt="a pink crochet bunny beside balls of yarn on a wooden table"></a>
+<a href="https://refvid.com/crochet-showcase"><img src="media/crochet-showcase/poster.jpg" height="240" align="left" alt="a pink crochet bunny beside balls of yarn on a wooden table"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your piece<br><br>
-<b>Reference photos</b><br><img src="media/crochet-showcase/ref-1.jpg" height="56" alt="Reference photo for Crochet Showcase"> <img src="media/crochet-showcase/ref-2.jpg" height="56" alt="Reference photo for Crochet Showcase"> <img src="media/crochet-showcase/ref-3.jpg" height="56" alt="Reference photo for Crochet Showcase"> <img src="media/crochet-showcase/ref-4.jpg" height="56" alt="Reference photo for Crochet Showcase"><br><br>
-<a href="https://refvid.com/templates/crochet-showcase"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/crochet-showcase/ref-1.jpg" height="56" alt="Reference photo: Crochet Showcase"> <img src="media/crochet-showcase/ref-2.jpg" height="56" alt="Reference photo: Crochet Showcase"> <img src="media/crochet-showcase/ref-3.jpg" height="56" alt="Reference photo: Crochet Showcase"> <img src="media/crochet-showcase/ref-4.jpg" height="56" alt="Reference photo: Crochet Showcase"><br><br>
+<a href="https://refvid.com/crochet-showcase"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1369,12 +1371,12 @@ Shot 2: Macro close-up moving across [1]’s stitches and face, every loop of ya
 ### Miniature Diorama
 
 <p>
-<a href="https://refvid.com/templates/diorama-miniature"><img src="media/diorama-miniature/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit in a miniature town with trees and a railway"></a>
+<a href="https://refvid.com/diorama-miniature"><img src="media/diorama-miniature/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit in a miniature town with trees and a railway"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 16:9 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your figure<br><br>
-<b>Reference photos</b><br><img src="media/diorama-miniature/ref-1.jpg" height="56" alt="Reference photo for Miniature Diorama"> <img src="media/diorama-miniature/ref-2.jpg" height="56" alt="Reference photo for Miniature Diorama"> <img src="media/diorama-miniature/ref-3.jpg" height="56" alt="Reference photo for Miniature Diorama"> <img src="media/diorama-miniature/ref-4.jpg" height="56" alt="Reference photo for Miniature Diorama"><br><br>
-<a href="https://refvid.com/templates/diorama-miniature"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/diorama-miniature/ref-1.jpg" height="56" alt="Reference photo: Miniature Diorama"> <img src="media/diorama-miniature/ref-2.jpg" height="56" alt="Reference photo: Miniature Diorama"> <img src="media/diorama-miniature/ref-3.jpg" height="56" alt="Reference photo: Miniature Diorama"> <img src="media/diorama-miniature/ref-4.jpg" height="56" alt="Reference photo: Miniature Diorama"><br><br>
+<a href="https://refvid.com/diorama-miniature"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1387,12 +1389,12 @@ Tilt-shift miniature diorama of a tiny town square with model trees, street lamp
 ### Figure 360
 
 <p>
-<a href="https://refvid.com/templates/figure-turntable-showcase"><img src="media/figure-turntable-showcase/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit on a glass turntable under a spotlight"></a>
+<a href="https://refvid.com/figure-turntable-showcase"><img src="media/figure-turntable-showcase/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit on a glass turntable under a spotlight"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your figure<br><br>
-<b>Reference photos</b><br><img src="media/figure-turntable-showcase/ref-1.jpg" height="56" alt="Reference photo for Figure 360"> <img src="media/figure-turntable-showcase/ref-2.jpg" height="56" alt="Reference photo for Figure 360"> <img src="media/figure-turntable-showcase/ref-3.jpg" height="56" alt="Reference photo for Figure 360"> <img src="media/figure-turntable-showcase/ref-4.jpg" height="56" alt="Reference photo for Figure 360"><br><br>
-<a href="https://refvid.com/templates/figure-turntable-showcase"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/figure-turntable-showcase/ref-1.jpg" height="56" alt="Reference photo: Figure 360"> <img src="media/figure-turntable-showcase/ref-2.jpg" height="56" alt="Reference photo: Figure 360"> <img src="media/figure-turntable-showcase/ref-3.jpg" height="56" alt="Reference photo: Figure 360"> <img src="media/figure-turntable-showcase/ref-4.jpg" height="56" alt="Reference photo: Figure 360"><br><br>
+<a href="https://refvid.com/figure-turntable-showcase"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1406,12 +1408,12 @@ Shot 2: Macro close-up of [1]’s face and painted details, the light gliding ac
 ### Mascot Hello
 
 <p>
-<a href="https://refvid.com/templates/mascot-wave-hello"><img src="media/mascot-wave-hello/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit waving on a pale grey background"></a>
+<a href="https://refvid.com/mascot-wave-hello"><img src="media/mascot-wave-hello/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit waving on a pale grey background"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 1:1 · sound<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your mascot<br><br>
-<b>Reference photos</b><br><img src="media/mascot-wave-hello/ref-1.jpg" height="56" alt="Reference photo for Mascot Hello"> <img src="media/mascot-wave-hello/ref-2.jpg" height="56" alt="Reference photo for Mascot Hello"> <img src="media/mascot-wave-hello/ref-3.jpg" height="56" alt="Reference photo for Mascot Hello"> <img src="media/mascot-wave-hello/ref-4.jpg" height="56" alt="Reference photo for Mascot Hello"><br><br>
-<a href="https://refvid.com/templates/mascot-wave-hello"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/mascot-wave-hello/ref-1.jpg" height="56" alt="Reference photo: Mascot Hello"> <img src="media/mascot-wave-hello/ref-2.jpg" height="56" alt="Reference photo: Mascot Hello"> <img src="media/mascot-wave-hello/ref-3.jpg" height="56" alt="Reference photo: Mascot Hello"> <img src="media/mascot-wave-hello/ref-4.jpg" height="56" alt="Reference photo: Mascot Hello"><br><br>
+<a href="https://refvid.com/mascot-wave-hello"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1424,12 +1426,12 @@ Shot 2: Macro close-up of [1]’s face and painted details, the light gliding ac
 ### Plush Adventure
 
 <p>
-<a href="https://refvid.com/templates/plush-adventure"><img src="media/plush-adventure/poster.jpg" height="240" align="left" alt="a teddy bear in a red scarf sitting by a tram window"></a>
+<a href="https://refvid.com/plush-adventure"><img src="media/plush-adventure/poster.jpg" height="240" align="left" alt="a teddy bear in a red scarf sitting by a tram window"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 10 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your plushie<br><br>
-<b>Reference photos</b><br><img src="media/plush-adventure/ref-1.jpg" height="56" alt="Reference photo for Plush Adventure"> <img src="media/plush-adventure/ref-2.jpg" height="56" alt="Reference photo for Plush Adventure"> <img src="media/plush-adventure/ref-3.jpg" height="56" alt="Reference photo for Plush Adventure"> <img src="media/plush-adventure/ref-4.jpg" height="56" alt="Reference photo for Plush Adventure"><br><br>
-<a href="https://refvid.com/templates/plush-adventure"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/plush-adventure/ref-1.jpg" height="56" alt="Reference photo: Plush Adventure"> <img src="media/plush-adventure/ref-2.jpg" height="56" alt="Reference photo: Plush Adventure"> <img src="media/plush-adventure/ref-3.jpg" height="56" alt="Reference photo: Plush Adventure"> <img src="media/plush-adventure/ref-4.jpg" height="56" alt="Reference photo: Plush Adventure"><br><br>
+<a href="https://refvid.com/plush-adventure"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
@@ -1444,12 +1446,12 @@ Shot 3: [1] sits on a stone bridge railing watching a river sunset, the city lig
 ### Toy Comes Alive
 
 <p>
-<a href="https://refvid.com/templates/toy-comes-alive"><img src="media/toy-comes-alive/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit on a desk beside pencils and books"></a>
+<a href="https://refvid.com/toy-comes-alive"><img src="media/toy-comes-alive/poster.jpg" height="240" align="left" alt="a fox figurine in a space suit on a desk beside pencils and books"></a>
 <b>Model</b>&nbsp; Kling 3.0 Omni<br>
 <b>Clip</b>&nbsp; 5 s · 9:16 · silent<br>
 <b>Subjects</b>&nbsp; <code>[1]</code> your figure<br><br>
-<b>Reference photos</b><br><img src="media/toy-comes-alive/ref-1.jpg" height="56" alt="Reference photo for Toy Comes Alive"> <img src="media/toy-comes-alive/ref-2.jpg" height="56" alt="Reference photo for Toy Comes Alive"> <img src="media/toy-comes-alive/ref-3.jpg" height="56" alt="Reference photo for Toy Comes Alive"> <img src="media/toy-comes-alive/ref-4.jpg" height="56" alt="Reference photo for Toy Comes Alive"><br><br>
-<a href="https://refvid.com/templates/toy-comes-alive"><b>▶ Watch the clip and make it with your photos</b></a>
+<b>Reference photos</b><br><img src="media/toy-comes-alive/ref-1.jpg" height="56" alt="Reference photo: Toy Comes Alive"> <img src="media/toy-comes-alive/ref-2.jpg" height="56" alt="Reference photo: Toy Comes Alive"> <img src="media/toy-comes-alive/ref-3.jpg" height="56" alt="Reference photo: Toy Comes Alive"> <img src="media/toy-comes-alive/ref-4.jpg" height="56" alt="Reference photo: Toy Comes Alive"><br><br>
+<a href="https://refvid.com/toy-comes-alive"><b>▶ Watch the clip and make it with your photos</b></a>
 </p>
 <br clear="left">
 
