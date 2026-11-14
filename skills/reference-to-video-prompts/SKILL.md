@@ -17,7 +17,7 @@ A reference-to-video model takes 1–10 photos per subject and a prompt. The pho
 
 ## Examples
 
-Every tested prompt is in [`prompts.json`](../../prompts.json) (71 entries: subjects, shots, model, seconds, ratio, photo tips). Pick the closest one, keep its structure, change the setting and action. For instance:
+Every tested prompt is in [`prompts.json`](https://github.com/refvid/awesome-reference-to-video-prompts/blob/main/prompts.json) (71 entries: subjects, shots, model, seconds, ratio, photo tips). Pick the closest one, keep its structure, change the setting and action. For instance:
 
 - Road Trip (person): `Shot 1: A vintage convertible drives along a sunny coastal road; [1] at the wheel and [2] in the passenger seat laugh, hair blowing in the wind. Wide tracking s…`
 - Birthday Greeting (person): `Medium close-up of [1] in a cosy living room holding a small cake with lit candles toward the camera, then smiling and saying warmly: "Happy birthday! I hope th…`
